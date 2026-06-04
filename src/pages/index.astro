@@ -78,7 +78,7 @@ const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value
         <div class="p-6">
           <div class="flex items-start justify-between mb-4">
             <div>
-              <h2 class="text-xl font-bold text-gray-900">{s.name}</h2>
+              <h2 class="text-xl font-bold text-gray-900">{s.emoji ? `${s.emoji} ${s.name}` : s.name}</h2>
               <p class="text-sm text-gray-500">{s.flag} {s.country}</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value
                   <span class="text-gray-500 w-16 shrink-0">{techLabels[key]}</span>
                   <span class="font-medium text-gray-900">{item.value}</span>
                   <span class="text-gray-400 text-xs">
-                    {item.sources.map((src: string) => sourceIcons[src] || src).join('')}
+                    {item.sources.map((src: any) => sourceIcons[src.type] || src.type).join('')}
                   </span>
                   {item.certainty === 'low' && (
                     <span class="text-amber-500 text-xs" title="確信度: 低">⚠️</span>

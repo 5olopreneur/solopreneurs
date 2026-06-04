@@ -2,18 +2,57 @@
   {
     "id": "pieter-levels",
     "name": "Pieter Levels",
+    "emoji": "🧔🏻",
     "country": "Netherlands",
     "countryCode": "NL",
     "flag": "🇳🇱",
     "products": ["PhotoAI", "InteriorAI", "Nomad List", "Remote OK"],
     "xHandle": "levelsio",
     "techStack": {
-      "frontend": { "value": "jQuery, vanilla HTML/CSS", "sources": ["podcast", "blog"], "certainty": "high" },
-      "backend": { "value": "PHP (vanilla, no frameworks)", "sources": ["podcast", "blog"], "certainty": "high" },
-      "database": { "value": "SQLite", "sources": ["podcast", "blog"], "certainty": "high" },
-      "hosting": { "value": "DigitalOcean VPS", "sources": ["blog"], "certainty": "medium" },
-      "libraries": { "value": "jQuery, Stripe", "sources": ["podcast", "blog"], "certainty": "medium" },
-      "ai": { "value": "Midjourney API, Stable Diffusion, Replicate", "sources": ["blog", "sns"], "certainty": "high" }
+      "frontend": {
+        "value": "jQuery, vanilla HTML/CSS",
+        "sources": [
+          { "type": "podcast", "url": "https://lexfridman.com/pieter-levels-transcript/", "title": "Lex Fridman Podcast #440" }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "PHP (vanilla, no frameworks)",
+        "sources": [
+          { "type": "podcast", "url": "https://lexfridman.com/pieter-levels-transcript/", "title": "Lex Fridman Podcast #440" }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "SQLite",
+        "sources": [
+          { "type": "podcast", "url": "https://lexfridman.com/pieter-levels-transcript/", "title": "Lex Fridman Podcast #440" }
+        ],
+        "certainty": "high"
+      },
+      "hosting": {
+        "value": "DigitalOcean VPS",
+        "sources": [
+          { "type": "blog", "url": "https://blog.startupstash.com/the-3m-one-man-empire-how-pieter-levels-won-the-solopreneur-game-714666f50466", "title": "The $3M One-Man Empire: How Pieter Levels Won the Solopreneur Game" }
+        ],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "jQuery, Stripe",
+        "sources": [
+          { "type": "podcast", "url": "https://lexfridman.com/pieter-levels-transcript/", "title": "Lex Fridman Podcast #440" },
+          { "type": "blog", "url": "https://founderreality.com/blog/how-pieter-levels-built-photoai-to-40k-mrr-in-60-days-without-a-team", "title": "How Pieter Levels Built PhotoAI to $40K MRR in 60 Days" }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "Midjourney API, Stable Diffusion, Replicate",
+        "sources": [
+          { "type": "blog", "url": "https://founderreality.com/blog/how-pieter-levels-built-photoai-to-40k-mrr-in-60-days-without-a-team", "title": "How Pieter Levels Built PhotoAI to $40K MRR in 60 Days" },
+          { "type": "blog", "url": "https://www.indiehackers.com/post/photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-132k-mrr-in-18-months-3a9a2b1579", "title": "Photo AI by Pieter Levels: Complete Deep Dive Case Study" }
+        ],
+        "certainty": "high"
+      }
     },
     "devTools": {
       "codeAI": "Cursor",
@@ -24,18 +63,58 @@
   {
     "id": "arvid-kahl",
     "name": "Arvid Kahl",
+    "emoji": "🧔🏻‍♂️",
     "country": "Germany",
     "countryCode": "DE",
     "flag": "🇩🇪",
     "products": ["FeedbackPanda", "The Bootstrapped Founder", "Podscan.fm"],
     "xHandle": "arvidkahl",
     "techStack": {
-      "frontend": { "value": "Vue.js, Laravel Blade", "sources": ["blog", "podcast"], "certainty": "high" },
-      "backend": { "value": "PHP / Laravel, Elixir", "sources": ["podcast", "blog"], "certainty": "high" },
-      "database": { "value": "PostgreSQL", "sources": ["podcast"], "certainty": "low" },
-      "hosting": { "value": "AWS EC2, Hetzner", "sources": ["podcast"], "certainty": "high" },
-      "libraries": { "value": "Phoenix, Laravel, OpenSearch", "sources": ["podcast", "blog"], "certainty": "medium" },
-      "ai": { "value": "Claude, Whisper", "sources": ["podcast"], "certainty": "medium" }
+      "frontend": {
+        "value": "Vue.js, Laravel Blade",
+        "sources": [
+          { "type": "blog", "url": "https://ramen.tools/@arvidkahl", "title": "Arvid Kahl's Tech Stack - ramen.tools" },
+          { "type": "podcast", "url": "https://tighten.com/insights/bol-ep21-arvid-kahl-podscan/", "title": "Turning Podcasts into Insights | Arvid Kahl, Creator of Podscan" }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "PHP / Laravel, Elixir",
+        "sources": [
+          { "type": "podcast", "url": "https://podscripts.co/podcasts/software-huddle/lessons-from-transcribing-and-indexing-35-million-podcasts-with-arvid-kahl", "title": "Software Huddle - Lessons from Transcribing 3.5M Podcasts with Arvid Kahl" },
+          { "type": "blog", "url": "https://ramen.tools/@arvidkahl", "title": "Arvid Kahl's Tech Stack - ramen.tools" }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "PostgreSQL",
+        "sources": [
+          { "type": "podcast", "url": "https://podscripts.co/podcasts/software-huddle/lessons-from-transcribing-and-indexing-35-million-podcasts-with-arvid-kahl", "title": "Software Huddle - Lessons from Transcribing 3.5M Podcasts with Arvid Kahl" }
+        ],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "AWS EC2, Hetzner",
+        "sources": [
+          { "type": "podcast", "url": "https://tighten.com/insights/bol-ep21-arvid-kahl-podscan/", "title": "Turning Podcasts into Insights | Arvid Kahl, Creator of Podscan" }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Phoenix, Laravel, OpenSearch",
+        "sources": [
+          { "type": "podcast", "url": "https://podscripts.co/podcasts/software-huddle/lessons-from-transcribing-and-indexing-35-million-podcasts-with-arvid-kahl", "title": "Software Huddle - Lessons from Transcribing 3.5M Podcasts with Arvid Kahl" },
+          { "type": "blog", "url": "https://ramen.tools/@arvidkahl", "title": "Arvid Kahl's Tech Stack - ramen.tools" }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "Claude, Whisper",
+        "sources": [
+          { "type": "podcast", "url": "https://tighten.com/insights/bol-ep21-arvid-kahl-podscan/", "title": "Turning Podcasts into Insights | Arvid Kahl, Creator of Podscan" }
+        ],
+        "certainty": "medium"
+      }
     },
     "devTools": {
       "codeAI": "Cursor / Juni",
@@ -46,18 +125,57 @@
   {
     "id": "tony-dinh",
     "name": "Tony Dinh",
+    "emoji": "🧑",
     "country": "Vietnam",
     "countryCode": "VN",
     "flag": "🇻🇳",
     "products": ["TypingMind", "Xnapper", "DevUtils", "BlackMagic.so"],
     "xHandle": "tdinh_me",
     "techStack": {
-      "frontend": { "value": "React, Next.js, Tailwind CSS", "sources": ["blog", "github"], "certainty": "high" },
-      "backend": { "value": "Node.js / Express", "sources": ["blog"], "certainty": "high" },
-      "database": { "value": "MySQL, Redis", "sources": ["blog"], "certainty": "high" },
-      "hosting": { "value": "AWS, Vercel, DigitalOcean, Cloudflare", "sources": ["blog"], "certainty": "high" },
-      "libraries": { "value": "Electron, PM2, Paddle", "sources": ["blog", "github"], "certainty": "medium" },
-      "ai": { "value": "OpenAI API", "sources": ["blog"], "certainty": "high" }
+      "frontend": {
+        "value": "React, Next.js, Tailwind CSS",
+        "sources": [
+          { "type": "blog", "url": "https://www.indiehackers.com/post/the-tech-stacks-of-20-businesses-and-why-founders-chose-them-34e77d84b9", "title": "The tech stacks of 20+ businesses and why founders chose them - Indie Hackers" },
+          { "type": "blog", "url": "https://ramen.tools/@tdinh_me", "title": "Tony Dinh's Tech Stack - ramen.tools" }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Node.js / Express",
+        "sources": [
+          { "type": "blog", "url": "https://www.indiehackers.com/post/the-tech-stacks-of-20-businesses-and-why-founders-chose-them-34e77d84b9", "title": "The tech stacks of 20+ businesses and why founders chose them - Indie Hackers" }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "MySQL, Redis",
+        "sources": [
+          { "type": "blog", "url": "https://www.indiehackers.com/post/the-tech-stacks-of-20-businesses-and-why-founders-chose-them-34e77d84b9", "title": "The tech stacks of 20+ businesses and why founders chose them - Indie Hackers" }
+        ],
+        "certainty": "high"
+      },
+      "hosting": {
+        "value": "AWS, Vercel, DigitalOcean, Cloudflare",
+        "sources": [
+          { "type": "blog", "url": "https://ramen.tools/@tdinh_me", "title": "Tony Dinh's Tech Stack - ramen.tools" }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Electron, PM2, Paddle",
+        "sources": [
+          { "type": "blog", "url": "https://www.indiehackers.com/post/the-tech-stacks-of-20-businesses-and-why-founders-chose-them-34e77d84b9", "title": "The tech stacks of 20+ businesses and why founders chose them - Indie Hackers" },
+          { "type": "github", "url": "https://github.com/trungdq88", "title": "Tony Dinh (trungdq88) - GitHub" }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "OpenAI API",
+        "sources": [
+          { "type": "blog", "url": "https://supabird.io/articles/tony-dinh-from-a-105k-developer-to-a-1-million-indie-hacking-marvel", "title": "Tony Dinh Story: From Code to Profitable Products" }
+        ],
+        "certainty": "high"
+      }
     },
     "devTools": {
       "codeAI": null,

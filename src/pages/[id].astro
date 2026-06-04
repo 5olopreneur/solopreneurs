@@ -42,8 +42,8 @@ const certaintyLabels: Record<string, { text: string; color: string }> = {
 ---
 
 <Layout 
-  title={`${s.name} - Solopreneurs Pages Dev`}
-  description={`${s.name}の技術スタック・開発環境・作ったもの`}
+  title={`${s.emoji ? `${s.emoji} ${s.name}` : s.name} - Solopreneurs Pages Dev`}
+  description={`${s.emoji ? `${s.emoji} ${s.name}` : s.name}の技術スタック・開発環境・作ったもの`}
 >
   <div class="mb-6">
     <a href="/" class="text-sm text-solo-600 hover:text-solo-900 underline">← 一覧に戻る</a>
@@ -52,9 +52,9 @@ const certaintyLabels: Record<string, { text: string; color: string }> = {
   <!-- Profile Header -->
   <div class="bg-white rounded-xl border border-gray-200 p-6 mb-6">
     <div class="flex items-start gap-4">
-      <div class="text-4xl">{s.flag}</div>
+      <div class="text-4xl">{s.emoji || s.flag}</div>
       <div>
-        <h1 class="text-2xl font-bold text-gray-900">{s.name}</h1>
+        <h1 class="text-2xl font-bold text-gray-900">{s.emoji ? `${s.emoji} ${s.name}` : s.name}</h1>
         <p class="text-gray-600">{s.country}</p>
         
         <div class="mt-3">
@@ -89,8 +89,10 @@ const certaintyLabels: Record<string, { text: string; color: string }> = {
               <div class="flex items-center gap-2">
                 <span class="text-lg font-semibold text-gray-900">{item.value}</span>
                 <span class="text-sm text-gray-400">
-                  {item.sources.map((src: string) => (
-                    <span title={sourceLabels[src]}>{sourceIcons[src] || src}</span>
+                  {item.sources.map((src: any) => (
+                    <a href={src.url} target="_blank" rel="noopener" title={`${sourceLabels[src.type]}: ${src.title}`} class="hover:opacity-70 transition-opacity">
+                      {sourceIcons[src.type] || src.type}
+                    </a>
                   ))}
                 </span>
               </div>
@@ -148,11 +150,13 @@ const certaintyLabels: Record<string, { text: string; color: string }> = {
   <!-- Sources -->
   <div class="bg-gray-50 rounded-xl border border-gray-200 p-6 mt-6">
     <h2 class="text-sm font-bold text-gray-700 mb-3">📋 情報源（公開情報の一覧）</h2>
-    <ul class="text-sm text-gray-600 space-y-1">
-      {Array.from(new Set(Object.values(s.techStack).flatMap((item: any) => item.sources))).map((src: string) => (
-        <li class="flex items-center gap-2">
-          <span>{sourceIcons[src] || ''}</span>
-          <span>{sourceLabels[src] || src}</span>
+    <ul class="text-sm text-gray-600 space-y-2">
+      {Array.from(new Map(Object.values(s.techStack).flatMap((item: any) => item.sources).map((src: any) => [src.url, src])).values()).map((src: any) => (
+        <li class="flex items-start gap-2">
+          <span class="shrink-0">{sourceIcons[src.type] || ''}</span>
+          <a href={src.url} target="_blank" rel="noopener" class="text-solo-600 hover:text-solo-900 hover:underline break-all">
+            {src.title}
+          </a>
         </li>
       ))}
     </ul>

@@ -196,5 +196,125 @@
       "assistant": null,
       "uiGen": null
     }
+  },
+  {
+    "id": "danny-postma",
+    "name": "Danny Postma",
+    "emoji": "👱🏻‍♂️",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "flag": "🇳🇱",
+    "products": [
+      { "name": "Landingfolio", "url": "https://landingfolio.com", "description": "厳選されたランディングページデザインギャラリー（2015年〜）" },
+      { "name": "Headlime", "url": null, "description": "AIコピーライティングツール（2020年に7桁ドルで売却）" },
+      { "name": "ProfilePictureAI", "url": null, "description": "AIプロフィール画像生成ツール（2022-2023）" },
+      { "name": "HeadshotPro", "url": "https://headshotpro.com", "description": "AIヘッドショット生成サービス（月$300K到達）" }
+    ],
+    "xHandle": "dannypostma",
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React",
+        "sources": [
+          { "type": "blog", "url": "https://supabird.io/articles/danny-postma-how-a-solo-hacker-built-an-ai-empire-from-bali", "title": "How Danny Postma Built $300K/Month AI Empire Solo" }
+        ],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "Python, Node.js",
+        "sources": [
+          { "type": "podcast", "url": "https://thebootstrappedfounder.com/danny-postma-an-indie-hackers-business-evolution/", "title": "Danny Postma: An Indie Hacker's Business Evolution" }
+        ],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "PostgreSQL",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "AWS / Vercel",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "Tailwind CSS, Prisma",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "Stable Diffusion, OpenAI API",
+        "sources": [
+          { "type": "podcast", "url": "https://thebootstrappedfounder.com/danny-postma-an-indie-hackers-business-evolution/", "title": "Danny Postma: An Indie Hacker's Business Evolution" }
+        ],
+        "certainty": "medium"
+      }
+    },
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "marc-lou",
+    "name": "Marc Lou",
+    "emoji": "🧑🏼‍🦱",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "products": [
+      { "name": "ShipFast", "url": "https://shipfa.st", "description": "Next.js SaaSボイラープレート。認証・決済・LP付き（$1.5M/年）" },
+      { "name": "CodeFast", "url": null, "description": "Next.js/React/Tailwindを学ぶ実践型コーディングコース" },
+      { "name": "Mood2Movie", "url": null, "description": "気分に合わせた映画推薦アプリ" },
+      { "name": "Habits Garden", "url": null, "description": "ゲーミフィケーション習慣トラッカー（1万ユーザー達成）" }
+    ],
+    "xHandle": "marclou",
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React, Tailwind CSS",
+        "sources": [
+          { "type": "blog", "url": "https://designrevision.com/blog/shipfast-vs-supastarter-vs-revkit", "title": "ShipFast vs Supastarter vs MakerKit 2026" }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Node.js / Next.js",
+        "sources": [
+          { "type": "blog", "url": "https://designrevision.com/blog/shipfast-vs-supastarter-vs-revkit", "title": "ShipFast vs Supastarter vs MakerKit 2026" }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "Supabase (PostgreSQL) / MongoDB",
+        "sources": [
+          { "type": "blog", "url": "https://designrevision.com/blog/shipfast-vs-supastarter-vs-revkit", "title": "ShipFast vs Supastarter vs MakerKit 2026" }
+        ],
+        "certainty": "high"
+      },
+      "hosting": {
+        "value": "Vercel",
+        "sources": [
+          { "type": "blog", "url": "https://starterpick.com/blog/t3-stack-vs-shipfast-2026", "title": "T3 Stack vs ShipFast: Free vs Paid Next.js Boilerplates" }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Prisma, NextAuth, shadcn/ui, Stripe",
+        "sources": [
+          { "type": "blog", "url": "https://designrevision.com/blog/shipfast-vs-supastarter-vs-revkit", "title": "ShipFast vs Supastarter vs MakerKit 2026" }
+        ],
+        "certainty": "high"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
   }
 ]

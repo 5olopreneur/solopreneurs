@@ -6,7 +6,12 @@
     "country": "Netherlands",
     "countryCode": "NL",
     "flag": "🇳🇱",
-    "products": ["PhotoAI", "InteriorAI", "Nomad List", "Remote OK"],
+    "products": [
+      { "name": "PhotoAI", "url": "https://photoai.com" },
+      { "name": "InteriorAI", "url": "https://interiorai.com" },
+      { "name": "Nomad List", "url": "https://nomadlist.com" },
+      { "name": "Remote OK", "url": "https://remoteok.com" }
+    ],
     "xHandle": "levelsio",
     "techStack": {
       "frontend": {
@@ -67,7 +72,10 @@
     "country": "Germany",
     "countryCode": "DE",
     "flag": "🇩🇪",
-    "products": ["FeedbackPanda", "The Bootstrapped Founder", "Podscan.fm"],
+    "products": [
+      { "name": "The Bootstrapped Founder", "url": "https://thebootstrappedfounder.com" },
+      { "name": "Podscan.fm", "url": "https://podscan.fm" }
+    ],
     "xHandle": "arvidkahl",
     "techStack": {
       "frontend": {
@@ -129,7 +137,12 @@
     "country": "Vietnam",
     "countryCode": "VN",
     "flag": "🇻🇳",
-    "products": ["TypingMind", "Xnapper", "DevUtils", "BlackMagic.so"],
+    "products": [
+      { "name": "TypingMind", "url": "https://typingmind.com" },
+      { "name": "Xnapper", "url": "https://xnapper.com" },
+      { "name": "DevUtils", "url": "https://devutils.com" },
+      { "name": "BlackMagic.so", "url": "https://blackmagic.so" }
+    ],
     "xHandle": "tdinh_me",
     "techStack": {
       "frontend": {

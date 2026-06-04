@@ -87,7 +87,11 @@ const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value
             <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">作ったもの</h3>
             <div class="flex flex-wrap gap-1">
               {s.products.map(p => (
-                <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">{p}</span>
+                p.url ? (
+                  <a href={p.url} target="_blank" rel="noopener" class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded hover:bg-gray-200 transition-colors">{p.name}</a>
+                ) : (
+                  <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">{p.name}</span>
+                )
               ))}
             </div>
           </div>

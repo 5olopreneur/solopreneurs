@@ -7,10 +7,10 @@
     "countryCode": "NL",
     "flag": "🇳🇱",
     "products": [
-      { "name": "PhotoAI", "url": "https://photoai.com" },
-      { "name": "InteriorAI", "url": "https://interiorai.com" },
-      { "name": "Nomad List", "url": "https://nomadlist.com" },
-      { "name": "Remote OK", "url": "https://remoteok.com" }
+      { "name": "PhotoAI", "url": "https://photoai.com", "description": "AIに自分の顔を学習させ、プロフィール写真やポートレートを生成するサービス" },
+      { "name": "InteriorAI", "url": "https://interiorai.com", "description": "部屋の写真をアップロードして、AIがインテリアリデザイン案を提示するサービス" },
+      { "name": "Nomad List", "url": "https://nomadlist.com", "description": "デジタルノマド向けの都市情報・生活コスト・コミュニティサイト" },
+      { "name": "Remote OK", "url": "https://remoteok.com", "description": "リモートワーク特化の求人ボード" }
     ],
     "xHandle": "levelsio",
     "techStack": {
@@ -73,8 +73,9 @@
     "countryCode": "DE",
     "flag": "🇩🇪",
     "products": [
-      { "name": "The Bootstrapped Founder", "url": "https://thebootstrappedfounder.com" },
-      { "name": "Podscan.fm", "url": "https://podscan.fm" }
+      { "name": "FeedbackPanda", "url": null, "description": "オンライン英語教師向けの生徒フィードバック自動生成ツール（2019年に売却）" },
+      { "name": "The Bootstrapped Founder", "url": "https://thebootstrappedfounder.com", "description": "ブートストラップ起業の情報発信メディア（ブログ・ポッドキャスト・書籍）" },
+      { "name": "Podscan.fm", "url": "https://podscan.fm", "description": "ポッドキャストの文字起こし・検索・言及アラートプラットフォーム" }
     ],
     "xHandle": "arvidkahl",
     "techStack": {
@@ -138,10 +139,10 @@
     "countryCode": "VN",
     "flag": "🇻🇳",
     "products": [
-      { "name": "TypingMind", "url": "https://typingmind.com" },
-      { "name": "Xnapper", "url": "https://xnapper.com" },
-      { "name": "DevUtils", "url": "https://devutils.com" },
-      { "name": "BlackMagic.so", "url": "https://blackmagic.so" }
+      { "name": "TypingMind", "url": "https://typingmind.com", "description": "ChatGPT API対応の高性能チャットUI。プロンプトライブラリやチーム機能を搭載" },
+      { "name": "Xnapper", "url": "https://xnapper.com", "description": "美しいスクリーンショットを簡単に作成できるmacOSアプリ（2024年に売却）" },
+      { "name": "DevUtils", "url": "https://devutils.com", "description": "開発者向けユーティリティツール集のmacOSネイティブアプリ" },
+      { "name": "BlackMagic.so", "url": "https://blackmagic.so", "description": "Twitter/Xのリアルタイム分析・エンゲージメント・CRMツール（2023年に売却）" }
     ],
     "xHandle": "tdinh_me",
     "techStack": {

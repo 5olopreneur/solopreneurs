@@ -1,0 +1,171 @@
+---
+import Layout from '../layouts/Layout.astro';
+import solopreneurs from '../data/solopreneurs.json';
+
+const techLabels: Record<string, string> = {
+  frontend: 'フロントエンド',
+  backend: 'バックエンド',
+  database: 'データベース',
+  hosting: 'ホスティング',
+  libraries: '主要ライブラリ',
+  ai: 'AI/ML層',
+};
+
+const sourceIcons: Record<string, string> = {
+  blog: '📄',
+  github: '🐙',
+  podcast: '🎙️',
+  x: '🐦',
+};
+
+const allFrontend = [...new Set(solopreneurs.map(s => s.techStack.frontend.value).filter(Boolean))];
+const allBackend = [...new Set(solopreneurs.map(s => s.techStack.backend.value).filter(Boolean))];
+const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value).filter(Boolean))];
+---
+
+<Layout 
+  title="Solopreneur Stats - ソロプレナー技術スタック比較"
+  description="Pieter Levels, Arvid Kahl, Tony Dinh など現代のソロプレナーの技術スタックを比較"
+>
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">
+      ソロプレナー技術スタック比較
+    </h1>
+    <p class="text-gray-600">
+      現代のソロプレナーの技術スタック・開発環境・作ったものを一覧化・比較
+    </p>
+  </div>
+
+  <!-- Filters -->
+  <div class="bg-white rounded-lg border border-gray-200 p-4 mb-8">
+    <div class="flex flex-wrap gap-4">
+      <div class="flex items-center gap-2">
+        <label class="text-sm font-medium text-gray-700">フロントエンド:</label>
+        <select id="filter-frontend" class="text-sm border border-gray-300 rounded-md px-2 py-1">
+          <option value="">すべて</option>
+          {allFrontend.map(t => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <div class="flex items-center gap-2">
+        <label class="text-sm font-medium text-gray-700">バックエンド:</label>
+        <select id="filter-backend" class="text-sm border border-gray-300 rounded-md px-2 py-1">
+          <option value="">すべて</option>
+          {allBackend.map(t => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <div class="flex items-center gap-2">
+        <label class="text-sm font-medium text-gray-700">データベース:</label>
+        <select id="filter-database" class="text-sm border border-gray-300 rounded-md px-2 py-1">
+          <option value="">すべて</option>
+          {allDatabase.map(t => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <button id="filter-reset" class="text-sm text-solo-600 hover:text-solo-900 underline">
+        リセット
+      </button>
+    </div>
+  </div>
+
+  <!-- Cards Grid -->
+  <div id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {solopreneurs.map((s) => (
+      <article 
+        class="solopreneur-card bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow"
+        data-frontend={s.techStack.frontend.value}
+        data-backend={s.techStack.backend.value}
+        data-database={s.techStack.database.value}
+      >
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <h2 class="text-xl font-bold text-gray-900">{s.name}</h2>
+              <p class="text-sm text-gray-500">{s.flag} {s.country}</p>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">作ったもの</h3>
+            <div class="flex flex-wrap gap-1">
+              {s.products.map(p => (
+                <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">{p}</span>
+              ))}
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">採用技術（推測）</h3>
+            <div class="space-y-1 text-sm">
+              {Object.entries(s.techStack).slice(0, 4).map(([key, item]) => (
+                <div class="flex items-center gap-1">
+                  <span class="text-gray-500 w-16 shrink-0">{techLabels[key]}</span>
+                  <span class="font-medium text-gray-900">{item.value}</span>
+                  <span class="text-gray-400 text-xs">
+                    {item.sources.map((src: string) => sourceIcons[src] || src).join('')}
+                  </span>
+                  {item.certainty === 'low' && (
+                    <span class="text-amber-500 text-xs" title="確信度: 低">⚠️</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <a 
+            href={`/${s.id}/`}
+            class="block w-full text-center bg-solo-50 text-solo-700 font-medium py-2 px-4 rounded-lg hover:bg-solo-100 transition-colors"
+          >
+            詳細を見る →
+          </a>
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <!-- No results message -->
+  <div id="no-results" class="hidden text-center py-12 text-gray-500">
+    条件に一致するソロプレナーが見つかりません
+  </div>
+</Layout>
+
+<script>
+  const grid = document.getElementById('cards-grid')!;
+  const noResults = document.getElementById('no-results')!;
+  const frontendSelect = document.getElementById('filter-frontend') as HTMLSelectElement;
+  const backendSelect = document.getElementById('filter-backend') as HTMLSelectElement;
+  const databaseSelect = document.getElementById('filter-database') as HTMLSelectElement;
+  const resetBtn = document.getElementById('filter-reset')!;
+
+  function applyFilters() {
+    const fe = frontendSelect.value;
+    const be = backendSelect.value;
+    const db = databaseSelect.value;
+    
+    let visible = 0;
+    grid.querySelectorAll('.solopreneur-card').forEach((card) => {
+      const el = card as HTMLElement;
+      const matchFe = !fe || el.dataset.frontend === fe;
+      const matchBe = !be || el.dataset.backend === be;
+      const matchDb = !db || el.dataset.database === db;
+      
+      if (matchFe && matchBe && matchDb) {
+        el.classList.remove('hidden');
+        visible++;
+      } else {
+        el.classList.add('hidden');
+      }
+    });
+    
+    noResults.classList.toggle('hidden', visible > 0);
+  }
+
+  frontendSelect?.addEventListener('change', applyFilters);
+  backendSelect?.addEventListener('change', applyFilters);
+  databaseSelect?.addEventListener('change', applyFilters);
+  
+  resetBtn?.addEventListener('click', () => {
+    frontendSelect.value = '';
+    backendSelect.value = '';
+    databaseSelect.value = '';
+    applyFilters();
+  });
+</script>

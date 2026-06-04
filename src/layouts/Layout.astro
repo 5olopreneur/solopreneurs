@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { 
+  title = 'Solopreneur Stats',
+  description = 'Compare tech stacks of modern solopreneurs'
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 min-h-screen">
+    <header class="bg-white border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-solo-900 hover:text-solo-600 transition-colors">
+          Solopreneur Stats
+        </a>
+        <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+          2026/06/04 Snapshot
+        </span>
+      </div>
+    </header>
+    
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-16">
+      <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500 text-center">
+        <p class="mb-2">
+          ⚠️ 本サイトに掲載されている技術スタックは、公開情報に基づくLLM推測であり、ハルシネーション（誤情報）を含む可能性があります。
+        </p>
+        <p>
+          誤りの指摘・削除依頼は <a href="mailto: corrections@5olopreneur.workers.dev" class="text-solo-600 underline">corrections@5olopreneur.workers.dev</a> まで
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

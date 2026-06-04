@@ -1,0 +1,68 @@
+[
+  {
+    "id": "pieter-levels",
+    "name": "Pieter Levels",
+    "country": "Netherlands",
+    "countryCode": "NL",
+    "flag": "🇳🇱",
+    "products": ["PhotoAI", "InteriorAI", "Nomad List", "Remote OK"],
+    "xHandle": "levelsio",
+    "techStack": {
+      "frontend": { "value": "React", "sources": ["blog", "github"], "certainty": "high" },
+      "backend": { "value": "Node.js", "sources": ["blog"], "certainty": "medium" },
+      "database": { "value": "PostgreSQL", "sources": ["podcast"], "certainty": "medium" },
+      "hosting": { "value": "AWS", "sources": ["github"], "certainty": "low" },
+      "libraries": { "value": "Next.js, Tailwind CSS", "sources": ["blog", "github"], "certainty": "medium" },
+      "ai": { "value": "Stable Diffusion, Replicate", "sources": ["blog"], "certainty": "high" }
+    },
+    "devTools": {
+      "codeAI": "Cursor",
+      "assistant": "ChatGPT",
+      "uiGen": null
+    }
+  },
+  {
+    "id": "arvid-kahl",
+    "name": "Arvid Kahl",
+    "country": "Germany",
+    "countryCode": "DE",
+    "flag": "🇩🇪",
+    "products": ["FeedbackPanda", "The Bootstrapped Founder"],
+    "xHandle": "arvidkahl",
+    "techStack": {
+      "frontend": { "value": "Vue.js", "sources": ["blog"], "certainty": "medium" },
+      "backend": { "value": "Ruby on Rails", "sources": ["blog", "podcast"], "certainty": "high" },
+      "database": { "value": "PostgreSQL", "sources": ["blog"], "certainty": "high" },
+      "hosting": { "value": "Heroku", "sources": ["blog"], "certainty": "high" },
+      "libraries": { "value": "Stripe, Hotwire", "sources": ["blog"], "certainty": "medium" },
+      "ai": { "value": "OpenAI API", "sources": ["podcast"], "certainty": "low" }
+    },
+    "devTools": {
+      "codeAI": "GitHub Copilot",
+      "assistant": "Claude",
+      "uiGen": null
+    }
+  },
+  {
+    "id": "tony-dinh",
+    "name": "Tony Dinh",
+    "country": "Vietnam",
+    "countryCode": "VN",
+    "flag": "🇻🇳",
+    "products": ["TypingMind", "Xnapper", "DevUtils"],
+    "xHandle": "tdinh_me",
+    "techStack": {
+      "frontend": { "value": "React", "sources": ["github"], "certainty": "high" },
+      "backend": { "value": "Node.js", "sources": ["github"], "certainty": "high" },
+      "database": { "value": "Firebase", "sources": ["blog"], "certainty": "medium" },
+      "hosting": { "value": "Vercel", "sources": ["github", "blog"], "certainty": "high" },
+      "libraries": { "value": "Next.js, Tailwind CSS, Electron", "sources": ["github"], "certainty": "high" },
+      "ai": { "value": "OpenAI API", "sources": ["blog"], "certainty": "high" }
+    },
+    "devTools": {
+      "codeAI": "Cursor",
+      "assistant": "ChatGPT",
+      "uiGen": "v0"
+    }
+  }
+]

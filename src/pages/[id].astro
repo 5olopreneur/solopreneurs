@@ -141,6 +141,32 @@ const certaintyLabels: Record<string, { text: string; color: string }> = {
     </div>
   </div>
 
+  <!-- Business Strategy & Marketing -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+    <div class="bg-white rounded-xl border border-gray-200 p-6">
+      <h2 class="text-lg font-bold text-gray-900 mb-4">📊 ビジネス戦略</h2>
+      <div class="space-y-3">
+        {s.businessStrategy.map((item: any) => (
+          <div>
+            <span class="text-sm bg-blue-50 text-blue-700 px-3 py-1 rounded-full font-medium">{item.name}</span>
+            <p class="text-sm text-gray-600 mt-1">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="bg-white rounded-xl border border-gray-200 p-6">
+      <h2 class="text-lg font-bold text-gray-900 mb-4">📣 マーケティング手法</h2>
+      <div class="space-y-3">
+        {s.marketing.map((item: any) => (
+          <div>
+            <span class="text-sm bg-purple-50 text-purple-700 px-3 py-1 rounded-full font-medium">{item.name}</span>
+            <p class="text-sm text-gray-600 mt-1">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
   <!-- X Timeline -->
   <div class="bg-white rounded-xl border border-gray-200 p-6 mt-6">
     <h2 class="text-lg font-bold text-gray-900 mb-4">🐦 話題のX投稿</h2>

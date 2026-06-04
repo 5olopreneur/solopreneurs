@@ -8,16 +8,16 @@
     "products": ["PhotoAI", "InteriorAI", "Nomad List", "Remote OK"],
     "xHandle": "levelsio",
     "techStack": {
-      "frontend": { "value": "React", "sources": ["blog", "github"], "certainty": "high" },
-      "backend": { "value": "Node.js", "sources": ["blog"], "certainty": "medium" },
-      "database": { "value": "PostgreSQL", "sources": ["podcast"], "certainty": "medium" },
-      "hosting": { "value": "AWS", "sources": ["github"], "certainty": "low" },
-      "libraries": { "value": "Next.js, Tailwind CSS", "sources": ["blog", "github"], "certainty": "medium" },
-      "ai": { "value": "Stable Diffusion, Replicate", "sources": ["blog"], "certainty": "high" }
+      "frontend": { "value": "jQuery, vanilla HTML/CSS", "sources": ["podcast", "blog"], "certainty": "high" },
+      "backend": { "value": "PHP (vanilla, no frameworks)", "sources": ["podcast", "blog"], "certainty": "high" },
+      "database": { "value": "SQLite", "sources": ["podcast", "blog"], "certainty": "high" },
+      "hosting": { "value": "DigitalOcean VPS", "sources": ["blog"], "certainty": "medium" },
+      "libraries": { "value": "jQuery, Stripe", "sources": ["podcast", "blog"], "certainty": "medium" },
+      "ai": { "value": "Midjourney API, Stable Diffusion, Replicate", "sources": ["blog", "sns"], "certainty": "high" }
     },
     "devTools": {
       "codeAI": "Cursor",
-      "assistant": "ChatGPT",
+      "assistant": "Claude / ChatGPT",
       "uiGen": null
     }
   },
@@ -27,18 +27,18 @@
     "country": "Germany",
     "countryCode": "DE",
     "flag": "🇩🇪",
-    "products": ["FeedbackPanda", "The Bootstrapped Founder"],
+    "products": ["FeedbackPanda", "The Bootstrapped Founder", "Podscan.fm"],
     "xHandle": "arvidkahl",
     "techStack": {
-      "frontend": { "value": "Vue.js", "sources": ["blog"], "certainty": "medium" },
-      "backend": { "value": "Ruby on Rails", "sources": ["blog", "podcast"], "certainty": "high" },
-      "database": { "value": "PostgreSQL", "sources": ["blog"], "certainty": "high" },
-      "hosting": { "value": "Heroku", "sources": ["blog"], "certainty": "high" },
-      "libraries": { "value": "Stripe, Hotwire", "sources": ["blog"], "certainty": "medium" },
-      "ai": { "value": "OpenAI API", "sources": ["podcast"], "certainty": "low" }
+      "frontend": { "value": "Vue.js, Laravel Blade", "sources": ["blog", "podcast"], "certainty": "high" },
+      "backend": { "value": "PHP / Laravel, Elixir", "sources": ["podcast", "blog"], "certainty": "high" },
+      "database": { "value": "PostgreSQL", "sources": ["podcast"], "certainty": "low" },
+      "hosting": { "value": "AWS EC2, Hetzner", "sources": ["podcast"], "certainty": "high" },
+      "libraries": { "value": "Phoenix, Laravel, OpenSearch", "sources": ["podcast", "blog"], "certainty": "medium" },
+      "ai": { "value": "Claude, Whisper", "sources": ["podcast"], "certainty": "medium" }
     },
     "devTools": {
-      "codeAI": "GitHub Copilot",
+      "codeAI": "Cursor / Juni",
       "assistant": "Claude",
       "uiGen": null
     }
@@ -49,20 +49,20 @@
     "country": "Vietnam",
     "countryCode": "VN",
     "flag": "🇻🇳",
-    "products": ["TypingMind", "Xnapper", "DevUtils"],
+    "products": ["TypingMind", "Xnapper", "DevUtils", "BlackMagic.so"],
     "xHandle": "tdinh_me",
     "techStack": {
-      "frontend": { "value": "React", "sources": ["github"], "certainty": "high" },
-      "backend": { "value": "Node.js", "sources": ["github"], "certainty": "high" },
-      "database": { "value": "Firebase", "sources": ["blog"], "certainty": "medium" },
-      "hosting": { "value": "Vercel", "sources": ["github", "blog"], "certainty": "high" },
-      "libraries": { "value": "Next.js, Tailwind CSS, Electron", "sources": ["github"], "certainty": "high" },
+      "frontend": { "value": "React, Next.js, Tailwind CSS", "sources": ["blog", "github"], "certainty": "high" },
+      "backend": { "value": "Node.js / Express", "sources": ["blog"], "certainty": "high" },
+      "database": { "value": "MySQL, Redis", "sources": ["blog"], "certainty": "high" },
+      "hosting": { "value": "AWS, Vercel, DigitalOcean, Cloudflare", "sources": ["blog"], "certainty": "high" },
+      "libraries": { "value": "Electron, PM2, Paddle", "sources": ["blog", "github"], "certainty": "medium" },
       "ai": { "value": "OpenAI API", "sources": ["blog"], "certainty": "high" }
     },
     "devTools": {
-      "codeAI": "Cursor",
-      "assistant": "ChatGPT",
-      "uiGen": "v0"
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
     }
   }
 ]

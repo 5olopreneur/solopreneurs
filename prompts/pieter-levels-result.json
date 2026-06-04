@@ -1,0 +1,47 @@
+{
+  "id": "pieter-levels",
+  "name": "Pieter Levels",
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "flag": "🇳🇱",
+  "products": ["PhotoAI", "InteriorAI", "Nomad List", "Remote OK"],
+  "xHandle": "levelsio",
+  "techStack": {
+    "frontend": {
+      "value": "jQuery, vanilla HTML/CSS",
+      "sources": ["podcast", "blog"],
+      "certainty": "high"
+    },
+    "backend": {
+      "value": "PHP (vanilla, no frameworks)",
+      "sources": ["podcast", "blog"],
+      "certainty": "high"
+    },
+    "database": {
+      "value": "SQLite",
+      "sources": ["podcast", "blog"],
+      "certainty": "high"
+    },
+    "hosting": {
+      "value": "DigitalOcean VPS",
+      "sources": ["blog"],
+      "certainty": "medium"
+    },
+    "libraries": {
+      "value": "jQuery, Stripe",
+      "sources": ["podcast", "blog"],
+      "certainty": "medium"
+    },
+    "ai": {
+      "value": "Midjourney API, Stable Diffusion, Replicate",
+      "sources": ["blog", "sns"],
+      "certainty": "high"
+    }
+  },
+  "devTools": {
+    "codeAI": "Cursor",
+    "assistant": "Claude / ChatGPT",
+    "uiGen": null
+  },
+  "inferenceNotes": "Lex Fridman Podcast #440（2024年8月）での本人発言が最も信頼できる一次情報。本人は『jQuery, PHP, SQLite』を明言し、Node.js/Reactは『to-doリストに入っているが未学習』と述べている。PhotoAI構築初期（2023年頃）の記事ではNext.js/Node.js/PostgreSQL/Vercelとあるが、これはPhotoAI単体の初期プロトタイプか、AI生成コードの可能性。本人の一貫した哲学は『フレームワーク不使用のシンプルスタック』であり、現在もjQuery/PHP/SQLiteをメインとしていると考えられる。ホスティングはDigitalOcean VPSがメインだが、プロダクトによって異なる可能性あり。AI層はPhotoAI/InteriorAIの核となるMidjourney APIがメインで、Stable Diffusionは障害時のバックアップ、Replicateは価格高騰時の移行先として使用。開発ツールは2025年のfly.pieter.com構築でCursorを明確に使用。Claude/ChatGPTはアーキテクチャ設計・コード生成に使用。"
+}

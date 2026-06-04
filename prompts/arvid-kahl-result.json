@@ -1,0 +1,47 @@
+{
+  "id": "arvid-kahl",
+  "name": "Arvid Kahl",
+  "country": "Germany",
+  "countryCode": "DE",
+  "flag": "🇩🇪",
+  "products": ["FeedbackPanda", "The Bootstrapped Founder", "Podscan.fm"],
+  "xHandle": "arvidkahl",
+  "techStack": {
+    "frontend": {
+      "value": "Vue.js, Laravel Blade",
+      "sources": ["blog", "podcast"],
+      "certainty": "high"
+    },
+    "backend": {
+      "value": "PHP / Laravel, Elixir",
+      "sources": ["podcast", "blog"],
+      "certainty": "high"
+    },
+    "database": {
+      "value": "PostgreSQL",
+      "sources": ["podcast"],
+      "certainty": "low"
+    },
+    "hosting": {
+      "value": "AWS EC2, Hetzner",
+      "sources": ["podcast"],
+      "certainty": "high"
+    },
+    "libraries": {
+      "value": "Phoenix, Laravel, OpenSearch",
+      "sources": ["podcast", "blog"],
+      "certainty": "medium"
+    },
+    "ai": {
+      "value": "Claude, Whisper",
+      "sources": ["podcast"],
+      "certainty": "medium"
+    }
+  },
+  "devTools": {
+    "codeAI": "Cursor / Juni",
+    "assistant": "Claude",
+    "uiGen": null
+  },
+  "inferenceNotes": "FeedbackPanda（2017-2019）はElixir/Phoenix/Vue.jsで構築。当時ArvidはElixir開発者として働いており『持っていた技術スタックをそのまま使用』とのこと。現在のメインプロダクトPodscan.fm（2024-）はPHP/Laravelに移行。Podcast（Tighten, Software Huddle）での本人発言が最も信頼できる。PodscanのインフラはAWS EC2（メインサーバー）+ Hetzner GPUサーバー（transcription用）のハイブリッド。OpenSearchは検索インフラとしてPodcastで明言。AI層はClaudeを『devil\'s advocate』として使用し、Whisper Flowで音声入力。コード生成にはJuniやCursorを使用。databaseはLaravelでは一般的にMySQLだが、Elixir/PhoenixではPostgreSQLが一般的。Podcastで直接言及がなかったためlowとした。"
+}

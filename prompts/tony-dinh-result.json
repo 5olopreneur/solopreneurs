@@ -1,0 +1,47 @@
+{
+  "id": "tony-dinh",
+  "name": "Tony Dinh",
+  "country": "Vietnam",
+  "countryCode": "VN",
+  "flag": "🇻🇳",
+  "products": ["TypingMind", "Xnapper", "DevUtils", "BlackMagic.so"],
+  "xHandle": "tdinh_me",
+  "techStack": {
+    "frontend": {
+      "value": "React, Next.js, Tailwind CSS",
+      "sources": ["blog", "github"],
+      "certainty": "high"
+    },
+    "backend": {
+      "value": "Node.js / Express",
+      "sources": ["blog"],
+      "certainty": "high"
+    },
+    "database": {
+      "value": "MySQL, Redis",
+      "sources": ["blog"],
+      "certainty": "high"
+    },
+    "hosting": {
+      "value": "AWS, Vercel, DigitalOcean, Cloudflare",
+      "sources": ["blog"],
+      "certainty": "high"
+    },
+    "libraries": {
+      "value": "Electron, PM2, Paddle",
+      "sources": ["blog", "github"],
+      "certainty": "medium"
+    },
+    "ai": {
+      "value": "OpenAI API",
+      "sources": ["blog"],
+      "certainty": "high"
+    }
+  },
+  "devTools": {
+    "codeAI": null,
+    "assistant": null,
+    "uiGen": null
+  },
+  "inferenceNotes": "Tony Dinhは2023年11月のIndieHackers投稿とramen.toolsで自らの技術スタックを完全に公開している。Frontend: React/Next.js/Tailwind CSS、Backend: Next.js/Express/pm2、Database: MySQL/Redis、Hosting: AWS/Vercel/DigitalOcean/Cloudflare、Services: Sentry/Pirsch/Namecheap/Cloudflare/GitHub Pages/AWS S3/DigitalOcean/AWS EC2/Paddle/Mailgun/Fastmail/GitHub Actions/AWS Lambda。TypingMindはChatGPT API公開直後（2023年2月）の週末にMVPを構築。初期は純粋な静的ウェブアプリ（バックエンド・サーバー・DBなし、ユーザーのOpenAI APIキーをローカル保存）だったが、後にB2Bチーム版等が追加されフルスタック化。DevUtilsはmacOSネイティブアプリ（ElectronまたはSwift）。開発ツールに関する明示的な言及は見当たらず、デザインは自身で行っている模様（Arvid Kahl Podcastでの発言）。"
+}

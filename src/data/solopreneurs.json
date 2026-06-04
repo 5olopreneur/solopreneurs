@@ -460,12 +460,12 @@
       },
       {
         "name": "Headlime",
-        "url": null,
+        "url": "https://headlime.com",
         "description": "AIコピーライティングツール（2020年に7桁ドルで売却）"
       },
       {
         "name": "ProfilePictureAI",
-        "url": null,
+        "url": "https://profilepicture.ai",
         "description": "AIプロフィール画像生成ツール（2022-2023）"
       },
       {
@@ -582,17 +582,17 @@
       },
       {
         "name": "CodeFast",
-        "url": null,
+        "url": "https://codefa.st",
         "description": "Next.js/React/Tailwindを学ぶ実践型コーディングコース"
       },
       {
         "name": "Mood2Movie",
-        "url": null,
+        "url": "https://mood2movie.com",
         "description": "気分に合わせた映画推薦アプリ"
       },
       {
         "name": "Habits Garden",
-        "url": null,
+        "url": "https://habitsgarden.com",
         "description": "ゲーミフィケーション習慣トラッカー（1万ユーザー達成）"
       }
     ],

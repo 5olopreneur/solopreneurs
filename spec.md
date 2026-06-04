@@ -162,7 +162,7 @@
 | レイヤー | 技術 |
 |---------|------|
 | フレームワーク | Astro v6 |
-| ホスティング | Cloudflare Workers |
+| ホスティング | Cloudflare Pages |
 | スタイル | Tailwind CSS（推奨） |
 | フィルター機能 | クライアントサイドJavaScript（Vanilla JS） |
 | 外部埋め込み | X（Twitter）Publish ウィジェット |
@@ -235,14 +235,14 @@
 
 ## 10. 未決定事項・TODO
 
-- [x] サイト名・ドメイン名の決定 — **Solopreneur Stats** / `www.5olopreneur.workers.dev`
+- [x] サイト名・ドメイン名の決定 — **Solopreneur Stats** / `solopreneurs.pages.dev`
 - [ ] ロゴ・ファビコンのデザイン
 - [ ] Xタイムライン埋め込み時の公式アカウント選定（各ソロプレナーのメインアカウント確認）
 - [ ] LLM推測用プロンプトの詳細設計
 - [ ] 訂正・削除依頼の受付メールアドレス設置
 - [ ] Astro 6 のリリース状況確認（未リリースの場合は最新安定版に変更）
-- [x] Cloudflare Workers デプロイフローの構築 — `https://www.5olopreneur.workers.dev`
-- [x] GitHub リポジトリの作成 — `https://github.com/5olopreneur/www`
+- [x] Cloudflare Pages デプロイフローの構築 — `https://solopreneurs.pages.dev`
+- [x] GitHub リポジトリの作成 — `https://github.com/5olopreneur/solopreneurs`
 
 ---
 

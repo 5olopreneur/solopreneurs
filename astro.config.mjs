@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  site: 'https://www.5olopreneur.workers.dev',
+  site: 'https://solopreneurs.pages.dev/',
 });

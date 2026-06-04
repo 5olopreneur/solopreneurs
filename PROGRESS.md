@@ -9,8 +9,8 @@
 ソロプレナーとして起業したい人向けに、現代のソロプレナーの技術スタック・開発環境・作ったものを一覧化・比較できる静的サイト。
 
 - **サイト名**: Solopreneur Stats
-- **公開URL**: https://www.5olopreneur.workers.dev
-- **GitHub**: https://github.com/5olopreneur/www
+- **公開URL**: https://solopreneurs.pages.dev/
+- **GitHub**: https://github.com/5olopreneur/solopreneurs
 
 ---
 
@@ -30,7 +30,7 @@
 - [x] Cloudflare アダプター（`@astrojs/cloudflare`）導入
 - [x] Tailwind CSS 導入（Astro 6 Vite プラグイン方式）
 - [x] `wrangler.toml` 設定
-- [x] GitHub リポジトリ作成済み（`github.com/5olopreneur/www`）
+- [x] GitHub リポジトリ作成済み（`github.com/5olopreneur/solopreneurs`）
 - [x] ビルドパイプライン確認（`dist/` へ静的出力）
 
 ### サイト骨格実装
@@ -89,7 +89,7 @@
 |---------|------|
 | フレームワーク | Astro 6.4.4 |
 | スタイリング | Tailwind CSS 4.x（Vite プラグイン方式）|
-| ホスティング | Cloudflare Workers / Pages |
+| ホスティング | Cloudflare Pages |
 | アダプター | `@astrojs/cloudflare` |
 | デプロイツール | Wrangler |
 
@@ -98,7 +98,7 @@
 ## ファイル構成
 
 ```
-www/
+solopreneurs/
 ├── astro.config.mjs          # Astro + Cloudflare + Tailwind 設定
 ├── package.json              # 依存関係
 ├── wrangler.toml             # Cloudflare 設定

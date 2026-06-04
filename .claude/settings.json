@@ -1,0 +1,31 @@
+{
+  "project": {
+    "name": "Solopreneurs Pages Dev",
+    "description": "現代の代表的ソロプレナーの技術スタック・開発環境・作ったものを一覧化・比較できる静的サイト",
+    "primary_language": "ja",
+    "tech_stack": ["Astro", "Tailwind CSS", "TypeScript", "Cloudflare Pages"]
+  },
+  "coding_style": {
+    "language": "ja",
+    "documentation": "ja",
+    "commit_messages": "ja",
+    "prefer": ["シンプル", "明示的", "型安全"],
+    "avoid": ["過度な抽象化", "any型の濫用", "不要な依存関係"]
+  },
+  "astro": {
+    "version": "6.x",
+    "output": "static",
+    "styling": "Tailwind CSS 4.x via Vite plugin",
+    "components": "Astro components (.astro) with island architecture when needed"
+  },
+  "rules": [
+    "すべてのコードコメントとドキュメントは日本語で記述する",
+    "TypeScriptのstrictモードを遵守する",
+    "Astroの静的出力（output: 'static'）を前提とする",
+    "Tailwind CSSのユーティリティクラスを優先して使用する",
+    "クライアントサイドJavaScriptは必要最小限に留める",
+    "画像やアセットはpublic/ディレクトリに配置する",
+    "データはsrc/data/にJSONとして管理する",
+    "ビルド成果物はdist/に出力される"
+  ]
+}

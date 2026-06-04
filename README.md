@@ -1,4 +1,4 @@
-# Solopreneur Stats
+# Solopreneurs Pages Dev
 
 現代の代表的ソロプレナーの技術スタック・開発環境・作ったものを一覧化・比較できる静的サイト。
 

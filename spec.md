@@ -1,4 +1,4 @@
-# Solopreneur Stats Spec
+# Solopreneurs Pages Dev Spec
 
 > **Grill-me Method による要件定義書**
 > 作成日: 2026-06-04
@@ -11,7 +11,7 @@
 ソロプレナーとして起業したい人向けに、現代の代表的ソロプレナーの**技術スタック・日々の作業・作ったもの**を一覧化・比較できる静的サイト。
 
 ### 1.1 サイト名
-**Solopreneur Stats**
+**Solopreneurs Pages Dev**
 
 ### 1.2 コアバリュー
 「ソロプレナー間の共通技術スタックを可視化し、閲覧者が自身の学習・採用の指標にできる」
@@ -235,7 +235,7 @@
 
 ## 10. 未決定事項・TODO
 
-- [x] サイト名・ドメイン名の決定 — **Solopreneur Stats** / `solopreneurs.pages.dev`
+- [x] サイト名・ドメイン名の決定 — **Solopreneurs Pages Dev** / `solopreneurs.pages.dev`
 - [ ] ロゴ・ファビコンのデザイン
 - [ ] Xタイムライン埋め込み時の公式アカウント選定（各ソロプレナーのメインアカウント確認）
 - [ ] LLM推測用プロンプトの詳細設計

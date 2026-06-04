@@ -1,4 +1,4 @@
-# Solopreneur Stats - 進捗状況
+# Solopreneurs Pages Dev - 進捗状況
 
 > 最終更新: 2026-06-04
 
@@ -8,7 +8,7 @@
 
 ソロプレナーとして起業したい人向けに、現代のソロプレナーの技術スタック・開発環境・作ったものを一覧化・比較できる静的サイト。
 
-- **サイト名**: Solopreneur Stats
+- **サイト名**: Solopreneurs Pages Dev
 - **公開URL**: https://solopreneurs.pages.dev/
 - **GitHub**: https://github.com/5olopreneur/solopreneurs
 

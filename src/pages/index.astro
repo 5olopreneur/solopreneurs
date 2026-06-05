@@ -56,6 +56,10 @@ function extractTechs(value: string): string[] {
   return [...new Set(result)];
 }
 
+function normalizeLabel(value: string): string {
+  return value.replace(/\s*[（(][^）)]+[）)]/, '').trim();
+}
+
 const allFrontend = [...new Set(
   solopreneurs.flatMap(s => extractTechs(s.techStack.frontend.value))
 )].sort();
@@ -64,6 +68,12 @@ const allBackend = [...new Set(
 )].sort();
 const allDatabase = [...new Set(
   solopreneurs.flatMap(s => extractTechs(s.techStack.database.value))
+)].sort();
+const allBusinessStrategy = [...new Set(
+  solopreneurs.flatMap(s => s.businessStrategy.map(b => normalizeLabel(b.name)))
+)].sort();
+const allMarketing = [...new Set(
+  solopreneurs.flatMap(s => s.marketing.map(m => normalizeLabel(m.name)))
 )].sort();
 ---
 
@@ -104,6 +114,20 @@ const allDatabase = [...new Set(
           {allDatabase.map(t => <option value={t}>{t}</option>)}
         </select>
       </div>
+      <div class="flex items-center gap-2">
+        <label class="text-sm font-medium text-gray-700">ビジネス戦略:</label>
+        <select id="filter-business" class="text-sm border border-gray-300 rounded-md px-2 py-1">
+          <option value="">すべて</option>
+          {allBusinessStrategy.map(t => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <div class="flex items-center gap-2">
+        <label class="text-sm font-medium text-gray-700">マーケティング:</label>
+        <select id="filter-marketing" class="text-sm border border-gray-300 rounded-md px-2 py-1">
+          <option value="">すべて</option>
+          {allMarketing.map(t => <option value={t}>{t}</option>)}
+        </select>
+      </div>
       <button id="filter-reset" class="text-sm text-solo-600 hover:text-solo-900 underline">
         リセット
       </button>
@@ -118,6 +142,8 @@ const allDatabase = [...new Set(
         data-frontend={JSON.stringify(extractTechs(s.techStack.frontend.value))}
         data-backend={JSON.stringify(extractTechs(s.techStack.backend.value))}
         data-database={JSON.stringify(extractTechs(s.techStack.database.value))}
+        data-business={JSON.stringify(s.businessStrategy.map(b => normalizeLabel(b.name)))}
+        data-marketing={JSON.stringify(s.marketing.map(m => normalizeLabel(m.name)))}
       >
         <div class="p-6 flex flex-col h-full">
           <div class="flex items-start justify-between mb-4">
@@ -208,12 +234,16 @@ const allDatabase = [...new Set(
   const frontendSelect = document.getElementById('filter-frontend') as HTMLSelectElement;
   const backendSelect = document.getElementById('filter-backend') as HTMLSelectElement;
   const databaseSelect = document.getElementById('filter-database') as HTMLSelectElement;
+  const businessSelect = document.getElementById('filter-business') as HTMLSelectElement;
+  const marketingSelect = document.getElementById('filter-marketing') as HTMLSelectElement;
   const resetBtn = document.getElementById('filter-reset')!;
 
   function applyFilters() {
     const fe = frontendSelect.value;
     const be = backendSelect.value;
     const db = databaseSelect.value;
+    const biz = businessSelect.value;
+    const mkt = marketingSelect.value;
     
     let visible = 0;
     grid.querySelectorAll('.solopreneur-card').forEach((card) => {
@@ -221,12 +251,16 @@ const allDatabase = [...new Set(
       const cardFe: string[] = JSON.parse(el.dataset.frontend || '[]');
       const cardBe: string[] = JSON.parse(el.dataset.backend || '[]');
       const cardDb: string[] = JSON.parse(el.dataset.database || '[]');
+      const cardBiz: string[] = JSON.parse(el.dataset.business || '[]');
+      const cardMkt: string[] = JSON.parse(el.dataset.marketing || '[]');
       
       const matchFe = !fe || cardFe.includes(fe);
       const matchBe = !be || cardBe.includes(be);
       const matchDb = !db || cardDb.includes(db);
+      const matchBiz = !biz || cardBiz.includes(biz);
+      const matchMkt = !mkt || cardMkt.includes(mkt);
       
-      if (matchFe && matchBe && matchDb) {
+      if (matchFe && matchBe && matchDb && matchBiz && matchMkt) {
         el.classList.remove('hidden');
         visible++;
       } else {
@@ -240,11 +274,15 @@ const allDatabase = [...new Set(
   frontendSelect?.addEventListener('change', applyFilters);
   backendSelect?.addEventListener('change', applyFilters);
   databaseSelect?.addEventListener('change', applyFilters);
+  businessSelect?.addEventListener('change', applyFilters);
+  marketingSelect?.addEventListener('change', applyFilters);
   
   resetBtn?.addEventListener('click', () => {
     frontendSelect.value = '';
     backendSelect.value = '';
     databaseSelect.value = '';
+    businessSelect.value = '';
+    marketingSelect.value = '';
     applyFilters();
   });
 </script>

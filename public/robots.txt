@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solopreneurs.pages.dev/sitemap.xml

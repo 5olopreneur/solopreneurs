@@ -1170,7 +1170,7 @@
         "certainty": "high"
       },
       "database": {
-        "value": "不明",
+        "value": "PostgreSQL",
         "sources": [],
         "certainty": "low"
       },
@@ -1391,9 +1391,9 @@
         "certainty": "high"
       },
       "database": {
-        "value": "不明",
+        "value": "Supabase (PostgreSQL)",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "hosting": {
         "value": "RunPod, 自前GPUクラウド",
@@ -1505,7 +1505,7 @@
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "PostgreSQL",
         "sources": [],
         "certainty": "low"
       },

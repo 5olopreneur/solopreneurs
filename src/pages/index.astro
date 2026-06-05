@@ -18,9 +18,53 @@ const sourceIcons: Record<string, string> = {
   x: '🐦',
 };
 
-const allFrontend = [...new Set(solopreneurs.map(s => s.techStack.frontend.value).filter(Boolean))];
-const allBackend = [...new Set(solopreneurs.map(s => s.techStack.backend.value).filter(Boolean))];
-const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value).filter(Boolean))];
+function splitTechs(value: string): string[] {
+  const parts: string[] = [];
+  let current = '';
+  let depth = 0;
+  for (const char of value) {
+    if (char === '(') depth++;
+    if (char === ')') depth--;
+    if ((char === ',' || char === '/') && depth === 0) {
+      if (current.trim()) parts.push(current.trim());
+      current = '';
+    } else {
+      current += char;
+    }
+  }
+  if (current.trim()) parts.push(current.trim());
+  return parts;
+}
+
+function extractTechs(value: string): string[] {
+  if (!value) return [];
+  const parts = splitTechs(value);
+  const result: string[] = [];
+  parts.forEach(part => {
+    const parenMatch = part.match(/\(([^)]+)\)/);
+    if (parenMatch && parenMatch[1].includes(',')) {
+      // 説明的な括弧: 括弧部分を除去して親のみ追加
+      result.push(part.replace(/\s*\([^)]+\)/, '').trim());
+    } else {
+      // 通常の括弧（別名）: 元の文字列と括弧内の文字列を両方追加
+      result.push(part);
+      if (parenMatch) {
+        result.push(parenMatch[1].trim());
+      }
+    }
+  });
+  return [...new Set(result)];
+}
+
+const allFrontend = [...new Set(
+  solopreneurs.flatMap(s => extractTechs(s.techStack.frontend.value))
+)].sort();
+const allBackend = [...new Set(
+  solopreneurs.flatMap(s => extractTechs(s.techStack.backend.value))
+)].sort();
+const allDatabase = [...new Set(
+  solopreneurs.flatMap(s => extractTechs(s.techStack.database.value))
+)].sort();
 ---
 
 <Layout 
@@ -71,9 +115,9 @@ const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value
     {solopreneurs.map((s) => (
       <article 
         class="solopreneur-card bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow h-full flex flex-col"
-        data-frontend={s.techStack.frontend.value}
-        data-backend={s.techStack.backend.value}
-        data-database={s.techStack.database.value}
+        data-frontend={JSON.stringify(extractTechs(s.techStack.frontend.value))}
+        data-backend={JSON.stringify(extractTechs(s.techStack.backend.value))}
+        data-database={JSON.stringify(extractTechs(s.techStack.database.value))}
       >
         <div class="p-6 flex flex-col h-full">
           <div class="flex items-start justify-between mb-4">
@@ -174,9 +218,13 @@ const allDatabase = [...new Set(solopreneurs.map(s => s.techStack.database.value
     let visible = 0;
     grid.querySelectorAll('.solopreneur-card').forEach((card) => {
       const el = card as HTMLElement;
-      const matchFe = !fe || el.dataset.frontend === fe;
-      const matchBe = !be || el.dataset.backend === be;
-      const matchDb = !db || el.dataset.database === db;
+      const cardFe: string[] = JSON.parse(el.dataset.frontend || '[]');
+      const cardBe: string[] = JSON.parse(el.dataset.backend || '[]');
+      const cardDb: string[] = JSON.parse(el.dataset.database || '[]');
+      
+      const matchFe = !fe || cardFe.includes(fe);
+      const matchBe = !be || cardBe.includes(be);
+      const matchDb = !db || cardDb.includes(db);
       
       if (matchFe && matchBe && matchDb) {
         el.classList.remove('hidden');

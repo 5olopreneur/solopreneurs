@@ -626,7 +626,7 @@
         "certainty": "high"
       },
       "database": {
-        "value": "Supabase (PostgreSQL) / MongoDB",
+        "value": "PostgreSQL, MongoDB",
         "sources": [
           {
             "type": "blog",
@@ -1288,12 +1288,12 @@
         "certainty": "low"
       },
       "backend": {
-        "value": "Supabase (BaaS)",
+        "value": "Supabase",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "PostgreSQL (via Supabase)",
+        "value": "PostgreSQL",
         "sources": [],
         "certainty": "low"
       },
@@ -1391,7 +1391,7 @@
         "certainty": "high"
       },
       "database": {
-        "value": "Supabase (PostgreSQL)",
+        "value": "PostgreSQL",
         "sources": [],
         "certainty": "medium"
       },

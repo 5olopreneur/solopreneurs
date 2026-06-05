@@ -60,21 +60,35 @@ function normalizeLabel(value: string): string {
   return value.replace(/\s*[（(][^）)]+[）)]/, '').trim();
 }
 
-const allFrontend = [...new Set(
-  solopreneurs.flatMap(s => extractTechs(s.techStack.frontend.value))
-)].sort();
-const allBackend = [...new Set(
-  solopreneurs.flatMap(s => extractTechs(s.techStack.backend.value))
-)].sort();
-const allDatabase = [...new Set(
-  solopreneurs.flatMap(s => extractTechs(s.techStack.database.value))
-)].sort();
-const allBusinessStrategy = [...new Set(
-  solopreneurs.flatMap(s => s.businessStrategy.map(b => normalizeLabel(b.name)))
-)].sort();
-const allMarketing = [...new Set(
-  solopreneurs.flatMap(s => s.marketing.map(m => normalizeLabel(m.name)))
-)].sort();
+function countOccurrences(lists: string[][]): Map<string, number> {
+  const counts = new Map<string, number>();
+  lists.forEach(list => {
+    [...new Set(list)].forEach(item => {
+      counts.set(item, (counts.get(item) || 0) + 1);
+    });
+  });
+  return counts;
+}
+
+const frontendLists = solopreneurs.map(s => extractTechs(s.techStack.frontend.value));
+const frontendCounts = countOccurrences(frontendLists);
+const allFrontend = [...frontendCounts.keys()].sort();
+
+const backendLists = solopreneurs.map(s => extractTechs(s.techStack.backend.value));
+const backendCounts = countOccurrences(backendLists);
+const allBackend = [...backendCounts.keys()].sort();
+
+const databaseLists = solopreneurs.map(s => extractTechs(s.techStack.database.value));
+const databaseCounts = countOccurrences(databaseLists);
+const allDatabase = [...databaseCounts.keys()].sort();
+
+const bizLists = solopreneurs.map(s => s.businessStrategy.map(b => normalizeLabel(b.name)));
+const bizCounts = countOccurrences(bizLists);
+const allBusinessStrategy = [...bizCounts.keys()].sort();
+
+const mktLists = solopreneurs.map(s => s.marketing.map(m => normalizeLabel(m.name)));
+const mktCounts = countOccurrences(mktLists);
+const allMarketing = [...mktCounts.keys()].sort();
 ---
 
 <Layout 
@@ -97,35 +111,35 @@ const allMarketing = [...new Set(
         <label class="text-sm font-medium text-gray-700">フロントエンド:</label>
         <select id="filter-frontend" class="text-sm border border-gray-300 rounded-md px-2 py-1">
           <option value="">すべて</option>
-          {allFrontend.map(t => <option value={t}>{t}</option>)}
+          {allFrontend.map(t => <option value={t}>{t} ({frontendCounts.get(t)}人)</option>)}
         </select>
       </div>
       <div class="flex items-center gap-2">
         <label class="text-sm font-medium text-gray-700">バックエンド:</label>
         <select id="filter-backend" class="text-sm border border-gray-300 rounded-md px-2 py-1">
           <option value="">すべて</option>
-          {allBackend.map(t => <option value={t}>{t}</option>)}
+          {allBackend.map(t => <option value={t}>{t} ({backendCounts.get(t)}人)</option>)}
         </select>
       </div>
       <div class="flex items-center gap-2">
         <label class="text-sm font-medium text-gray-700">DB:</label>
         <select id="filter-database" class="text-sm border border-gray-300 rounded-md px-2 py-1">
           <option value="">すべて</option>
-          {allDatabase.map(t => <option value={t}>{t}</option>)}
+          {allDatabase.map(t => <option value={t}>{t} ({databaseCounts.get(t)}人)</option>)}
         </select>
       </div>
       <div class="flex items-center gap-2">
         <label class="text-sm font-medium text-gray-700">ビジネス戦略:</label>
         <select id="filter-business" class="text-sm border border-gray-300 rounded-md px-2 py-1">
           <option value="">すべて</option>
-          {allBusinessStrategy.map(t => <option value={t}>{t}</option>)}
+          {allBusinessStrategy.map(t => <option value={t}>{t} ({bizCounts.get(t)}人)</option>)}
         </select>
       </div>
       <div class="flex items-center gap-2">
         <label class="text-sm font-medium text-gray-700">マーケティング:</label>
         <select id="filter-marketing" class="text-sm border border-gray-300 rounded-md px-2 py-1">
           <option value="">すべて</option>
-          {allMarketing.map(t => <option value={t}>{t}</option>)}
+          {allMarketing.map(t => <option value={t}>{t} ({mktCounts.get(t)}人)</option>)}
         </select>
       </div>
       <button id="filter-reset" class="text-sm text-solo-600 hover:text-solo-900 underline">

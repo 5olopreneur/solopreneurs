@@ -114,7 +114,7 @@
         "description": "サブスクではなく1回払いで永久利用可能なモデル"
       },
       {
-        "name": "ポートフォリオ戦略（40+プロダクト）",
+        "name": "ポートフォリオ戦略",
         "description": "少数に絞らず多数の小さなプロダクトで収益を分散"
       },
       {
@@ -261,15 +261,15 @@
     },
     "businessStrategy": [
       {
-        "name": "B2B SaaS（FeedbackPanda）",
+        "name": "B2B SaaS",
         "description": "企業・業界向けの月額SaaSツール"
       },
       {
-        "name": "オーディエンス先行ビジネス",
+        "name": "オーディエンス先行",
         "description": "顧客を先に知ってからプロダクトを作るアプローチ"
       },
       {
-        "name": "カルムカンパニー（穏やか成長）",
+        "name": "カルムカンパニー",
         "description": "無理なスケールより持続可能な成長を重視"
       },
       {
@@ -412,15 +412,15 @@
     },
     "businessStrategy": [
       {
-        "name": "B2Cツール（ワンタイム+サブスク併用）",
+        "name": "ハイブリッド課金",
         "description": "DevUtilsは買切、TypingMindは月額など併用"
       },
       {
-        "name": "複数プロダクト→シングルフォーカス",
+        "name": "シングルフォーカス",
         "description": "売却で資金を得て1本のプロダクトに集中"
       },
       {
-        "name": "早期売却で集中投資",
+        "name": "戦略的Exit",
         "description": "Xnapper/BlackMagicを売却しTypingMindに投資"
       }
     ],
@@ -535,7 +535,7 @@
         "description": "サブスクではなく1回払いで永久利用可能なモデル"
       },
       {
-        "name": "ポートフォリオ戦略（複数AIツール）",
+        "name": "ポートフォリオ戦略",
         "description": "HeadshotPro等複数AIツールで収益分散"
       },
       {
@@ -666,11 +666,11 @@
     },
     "businessStrategy": [
       {
-        "name": "B2C ワンタイム課金（$199ライセンス）",
+        "name": "B2C ワンタイム課金",
         "description": "ShipFastは買切りライフタイムライセンス販売"
       },
       {
-        "name": "教育コンテンツ（CodeFast）",
+        "name": "教育コンテンツ",
         "description": "コース販売で収益を多角化"
       },
       {
@@ -914,7 +914,7 @@
     },
     "businessStrategy": [
       {
-        "name": "B2B SaaSボイラープレート販売",
+        "name": "ボイラープレート販売",
         "description": "開発者が繰り返し書くコードを製品化し高額で販売"
       },
       {
@@ -922,11 +922,11 @@
         "description": "$995のライフタイムライセンス。安価だと信頼を損なう"
       },
       {
-        "name": "教育コンテンツ併売",
+        "name": "教育コンテンツ",
         "description": "コースと書籍で収益を多角化"
       },
       {
-        "name": "VCからの脱却",
+        "name": "ブートストラップ転向",
         "description": "ベンチャー資金調達による健康被害からブートストラップへ転向"
       }
     ],
@@ -1319,7 +1319,7 @@
         "description": "MagicPattern、BrandBird、SuperMotionなどマイクロSaaSを複数運営"
       },
       {
-        "name": "VCからブートストラップへ",
+        "name": "ブートストラップ転向",
         "description": "ベンチャー資金調達・Exit経験後、ブートストラップに転向"
       },
       {
@@ -1444,7 +1444,7 @@
         "description": "ミュージシャン向けに特化し、汎用AI動画ツールとの差別化"
       },
       {
-        "name": "コミュニティ主導成長",
+        "name": "コミュニティ重視",
         "description": "Discordでクリエイターコミュニティを構築"
       }
     ],
@@ -1626,7 +1626,7 @@
         "description": "広告・サブスク・アフィリエイトの3本柱で収益を安定化"
       },
       {
-        "name": "ワンタイム課金",
+        "name": "B2C ワンタイム課金",
         "description": "Premiumメンバーシップをワンタイム$695に移行"
       },
       {

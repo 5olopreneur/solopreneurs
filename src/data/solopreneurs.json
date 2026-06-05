@@ -833,7 +833,7 @@
   {
     "id": "kyle-gawley",
     "name": "Kyle Gawley",
-    "emoji": "👨🏼",
+    "emoji": "🧔🏻",
     "country": "United Kingdom",
     "countryCode": "GB",
     "flag": "🇬🇧",
@@ -845,7 +845,7 @@
       },
       {
         "name": "Alertly",
-        "url": null,
+        "url": "https://usealertly.com",
         "description": "AI営業支援・リードハンティングツール"
       },
       {
@@ -969,7 +969,7 @@
       },
       {
         "name": "Outrank",
-        "url": null,
+        "url": "https://www.outrank.so",
         "description": "SEOツール"
       },
       {
@@ -979,17 +979,17 @@
       },
       {
         "name": "SuperX",
-        "url": null,
+        "url": "https://superx.so",
         "description": "Xクリエイター向けAIツール"
       },
       {
         "name": "Tweet Hunter",
-        "url": null,
+        "url": "https://tweethunter.io",
         "description": "Twitter/Xのスケジュール・分析ツール（売却）"
       },
       {
         "name": "Taplio",
-        "url": null,
+        "url": "https://taplio.com",
         "description": "LinkedIn成長ツール（売却）"
       }
     ],
@@ -1125,12 +1125,12 @@
       },
       {
         "name": "AskMyBook",
-        "url": null,
+        "url": "https://github.com/slavingia/askmybook",
         "description": "著書の内容をQ&AできるAIツール"
       },
       {
         "name": "The Minimalist Entrepreneur",
-        "url": null,
+        "url": "https://www.amazon.co.jp/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397",
         "description": "著書『最小主義者の起業』"
       },
       {
@@ -1275,7 +1275,7 @@
       },
       {
         "name": "SuperMotion",
-        "url": null,
+        "url": "https://www.supermotion.co",
         "description": "モーション効果付きショート動画作成ツール"
       }
     ],
@@ -1578,7 +1578,7 @@
       },
       {
         "name": "Lean SEO",
-        "url": null,
+        "url": "https://leanseo.app",
         "description": "SEOコース"
       }
     ],

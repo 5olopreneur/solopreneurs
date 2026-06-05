@@ -648,7 +648,7 @@
         "certainty": "high"
       },
       "libraries": {
-        "value": "Prisma, NextAuth, shadcn/ui, Stripe",
+        "value": "Prisma, NextAuth, shadcnUI, Stripe",
         "sources": [
           {
             "type": "blog",
@@ -1143,7 +1143,7 @@
     "xFollowers": 390000,
     "techStack": {
       "frontend": {
-        "value": "Next.js, React, Tailwind CSS, shadcn/ui",
+        "value": "Next.js, React, Tailwind CSS, shadcnUI",
         "sources": [
           {
             "type": "blog",
@@ -1191,7 +1191,7 @@
         "certainty": "medium"
       },
       "libraries": {
-        "value": "Stripe, OpenAI API, shadcn/ui",
+        "value": "Stripe, OpenAI API, shadcnUI",
         "sources": [
           {
             "type": "blog",
@@ -1283,7 +1283,7 @@
     "xFollowers": 30000,
     "techStack": {
       "frontend": {
-        "value": "Next.js, Tailwind CSS, shadcn/ui",
+        "value": "Next.js, Tailwind CSS, shadcnUI",
         "sources": [],
         "certainty": "low"
       },
@@ -1303,7 +1303,7 @@
         "certainty": "low"
       },
       "libraries": {
-        "value": "shadcn/ui, Supabase",
+        "value": "shadcnUI, Supabase",
         "sources": [],
         "certainty": "low"
       },

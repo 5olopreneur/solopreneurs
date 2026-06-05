@@ -110,8 +110,8 @@
     },
     "businessStrategy": [
       {
-        "name": "B2C ワンタイム課金",
-        "description": "サブスクではなく1回払いで永久利用可能なモデル"
+        "name": "ワンタイム課金",
+        "description": "サブスクではなく1回払いで永久利用可能なモデル。無料版も定期課金も設けず、有料のみ"
       },
       {
         "name": "ポートフォリオ戦略",
@@ -120,19 +120,15 @@
       {
         "name": "シンプル価格設定",
         "description": "$29/50枚など複雑なプランを設けない"
-      },
-      {
-        "name": "ノーフリーミアム・ノーサブスク",
-        "description": "無料版も定期課金も設けず、有料のみ"
       }
     ],
     "marketing": [
       {
-        "name": "Build in Public（収益公開）",
+        "name": "Build in Public",
         "description": "毎月のMRRや開発過程をXでリアルタイム公開"
       },
       {
-        "name": "X/Twitter（89万フォロワー）",
+        "name": "X/Twitter",
         "description": "10年間の一貫した投稿で構築したオーディエンス"
       },
       {
@@ -140,7 +136,7 @@
         "description": "新プロダクトの立ち上げ時に必ずローンチ"
       },
       {
-        "name": "口コミ（広告ゼロ）",
+        "name": "口コミ",
         "description": "広告費を一切かけずオーガニック成長のみ"
       }
     ],
@@ -261,7 +257,7 @@
     },
     "businessStrategy": [
       {
-        "name": "B2B SaaS",
+        "name": "サブスク課金",
         "description": "企業・業界向けの月額SaaSツール"
       },
       {
@@ -269,7 +265,7 @@
         "description": "顧客を先に知ってからプロダクトを作るアプローチ"
       },
       {
-        "name": "カルムカンパニー",
+        "name": "ブートストラップ",
         "description": "無理なスケールより持続可能な成長を重視"
       },
       {
@@ -279,11 +275,11 @@
     ],
     "marketing": [
       {
-        "name": "Build in Public（収益・失敗公開）",
+        "name": "Build in Public",
         "description": "数字と反省をオープンに共有して信頼構築"
       },
       {
-        "name": "X/Twitter（20万フォロワー）",
+        "name": "X/Twitter",
         "description": "親切で価値ある投稿で構築したファン"
       },
       {
@@ -291,7 +287,7 @@
         "description": "The Bootstrapped Founderで週次配信"
       },
       {
-        "name": "書籍・ニュースレター",
+        "name": "Newsletter",
         "description": "Zero to Sold等で権威と信頼を構築"
       }
     ],
@@ -426,11 +422,11 @@
     ],
     "marketing": [
       {
-        "name": "Build in Public（MRR公開）",
+        "name": "Build in Public",
         "description": "毎月の収益と戦略をオープンに共有"
       },
       {
-        "name": "X/Twitter（19万フォロワー）",
+        "name": "X/Twitter",
         "description": "失敗と成功を含め正直に発信"
       },
       {
@@ -438,7 +434,7 @@
         "description": "新プロダクトの立ち上げ時に必ずローンチ"
       },
       {
-        "name": "口コミ（広告不使用）",
+        "name": "口コミ",
         "description": "$600で2コンバート後に広告を完全停止"
       }
     ],
@@ -531,7 +527,7 @@
     },
     "businessStrategy": [
       {
-        "name": "B2C ワンタイム課金",
+        "name": "ワンタイム課金",
         "description": "サブスクではなく1回払いで永久利用可能なモデル"
       },
       {
@@ -539,7 +535,7 @@
         "description": "HeadshotPro等複数AIツールで収益分散"
       },
       {
-        "name": "プログラマティックSEO",
+        "name": "SEO主導成長",
         "description": "自動生成コンテンツで検索上位を獲得"
       },
       {
@@ -549,11 +545,11 @@
     ],
     "marketing": [
       {
-        "name": "SEO（検索流入が主力）",
-        "description": ""
+        "name": "SEO",
+        "description": "検索流入を主要チャネルとして活用"
       },
       {
-        "name": "X/Twitter（17万フォロワー）",
+        "name": "X/Twitter",
         "description": "失敗と成功を含め正直に発信"
       },
       {
@@ -561,7 +557,7 @@
         "description": "新プロダクトの立ち上げ時に必ずローンチ"
       },
       {
-        "name": "アフィリエイトプログラム",
+        "name": "アフィリエイト",
         "description": "紹介者にインセンティブを配分する制度"
       }
     ],
@@ -666,19 +662,19 @@
     },
     "businessStrategy": [
       {
-        "name": "B2C ワンタイム課金",
+        "name": "ワンタイム課金",
         "description": "ShipFastは買切りライフタイムライセンス販売"
       },
       {
-        "name": "教育コンテンツ",
+        "name": "教育・コンテンツ",
         "description": "コース販売で収益を多角化"
       },
       {
-        "name": "コミュニティ重視",
+        "name": "オーディエンス先行",
         "description": "Discordで5000人以上の活発なコミュニティ運営"
       },
       {
-        "name": "ボイラープレート販売",
+        "name": "シングルフォーカス",
         "description": "自分の繰り返しコードを製品化して販売"
       }
     ],
@@ -688,19 +684,19 @@
         "description": "開発過程と収益をリアルタイムで公開"
       },
       {
-        "name": "X/Twitter(35万フォロワー)",
-        "description": ""
+        "name": "X/Twitter",
+        "description": "35万フォロワー"
       },
       {
         "name": "YouTube",
         "description": "チュートリアルと成長記録で動画発信"
       },
       {
-        "name": "Discordコミュニティ",
-        "description": "ユーザー同士の助け合いでサポートコスト削減"
+        "name": "コミュニティマーケ",
+        "description": "Discordで5000人以上の活発なコミュニティ運営"
       },
       {
-        "name": "Stripe認証リーダーボード",
+        "name": "ソーシャルプルーフ",
         "description": "購入者の売上をランキング化して社会証明"
       }
     ],
@@ -794,15 +790,15 @@
     },
     "businessStrategy": [
       {
-        "name": "API-first SaaS",
+        "name": "API-first",
         "description": "デベロッパー向けAPIとして提供し、ノーコード層も併設"
       },
       {
-        "name": "50:50 coding-marketing",
+        "name": "開発とマーケの両立",
         "description": "1週間コーディング、1週間マーケティングのリズムで運営"
       },
       {
-        "name": "ドキュメントドリブン販売",
+        "name": "教育・コンテンツ",
         "description": "API製品の場合、ドキュメントが充実しているほどコンバージョンが上がる"
       }
     ],
@@ -816,7 +812,7 @@
         "description": "16万フォロワー。開発過程と失敗を含めて発信"
       },
       {
-        "name": "SEO / コンテンツ",
+        "name": "SEO",
         "description": "ブログとドキュメントでオーガニック流入を獲得"
       },
       {
@@ -914,7 +910,7 @@
     },
     "businessStrategy": [
       {
-        "name": "ボイラープレート販売",
+        "name": "シングルフォーカス",
         "description": "開発者が繰り返し書くコードを製品化し高額で販売"
       },
       {
@@ -922,11 +918,11 @@
         "description": "$995のライフタイムライセンス。安価だと信頼を損なう"
       },
       {
-        "name": "教育コンテンツ",
+        "name": "教育・コンテンツ",
         "description": "コースと書籍で収益を多角化"
       },
       {
-        "name": "ブートストラップ転向",
+        "name": "ブートストラップ",
         "description": "ベンチャー資金調達による健康被害からブートストラップへ転向"
       }
     ],
@@ -936,7 +932,7 @@
         "description": "4万フォロワー。起業の教訓と風刺を発信"
       },
       {
-        "name": "Indie Hackers",
+        "name": "コミュニティマーケ",
         "description": "毎日コミュニティに参加し質問に回答"
       },
       {
@@ -1082,7 +1078,7 @@
         "description": "4か月で11プロダクトを立ち上げ、機能しないものは早く切る"
       },
       {
-        "name": "フリーツールSEO",
+        "name": "SEO主導成長",
         "description": "検索クエリに合わせた無料ツールでGoogle上位を獲得"
       }
     ],
@@ -1215,15 +1211,15 @@
     },
     "businessStrategy": [
       {
-        "name": "手数料モデル",
+        "name": "ハイブリッド課金",
         "description": "クリエイターが販売する際に手数料を徴収するマーケットプレイス型"
       },
       {
-        "name": "最小主義経営",
+        "name": "ブートストラップ",
         "description": "フルタイム従業員ゼロ、会議なし、締切なしの非同期運営"
       },
       {
-        "name": "クリエイターエコノミー基盤",
+        "name": "オーディエンス先行",
         "description": "個人がデジタル商品を直接販売できるインフラを提供"
       },
       {
@@ -1241,12 +1237,12 @@
         "description": "39万フォロワー。起業とテクノロジーへの強い信念を発信"
       },
       {
-        "name": "書籍",
-        "description": "The Minimalist Entrepreneurで権威と信頼を構築"
+        "name": "Newsletter",
+        "description": "The Minimalist Entrepreneurで権威と信頼を構築し、定期メルマガで継続対話"
       },
       {
-        "name": "Newsletter",
-        "description": "定期的なメルマガでオーディエンスと継続的に対話"
+        "name": "書籍",
+        "description": "著書で権威と信頼を構築"
       }
     ],
     "devTools": {
@@ -1319,11 +1315,11 @@
         "description": "MagicPattern、BrandBird、SuperMotionなどマイクロSaaSを複数運営"
       },
       {
-        "name": "ブートストラップ転向",
+        "name": "ブートストラップ",
         "description": "ベンチャー資金調達・Exit経験後、ブートストラップに転向"
       },
       {
-        "name": "デザイナー向けツール特化",
+        "name": "ニッチ特化",
         "description": "デザイン・ブランディングのニッチに特化したプロダクト群"
       }
     ],
@@ -1436,7 +1432,7 @@
     },
     "businessStrategy": [
       {
-        "name": "B2Cクレジット制",
+        "name": "ハイブリッド課金",
         "description": "月額$20〜$100のクレジットパックで動画生成"
       },
       {
@@ -1444,7 +1440,7 @@
         "description": "ミュージシャン向けに特化し、汎用AI動画ツールとの差別化"
       },
       {
-        "name": "コミュニティ重視",
+        "name": "オーディエンス先行",
         "description": "Discordでクリエイターコミュニティを構築"
       }
     ],
@@ -1462,7 +1458,7 @@
         "description": "3万語のAI動画生成ガイドで権威性を獲得"
       },
       {
-        "name": "Influencerマーケティング",
+        "name": "Influencer",
         "description": "影響力のあるミュージシャンに無料クレジットを提供"
       }
     ],
@@ -1527,15 +1523,15 @@
     },
     "businessStrategy": [
       {
-        "name": "Freemium SaaS",
+        "name": "サブスク課金",
         "description": "15件まで無料で収集、その後有料プランへ移行"
       },
       {
-        "name": "Micro-SaaS",
+        "name": "ポートフォリオ戦略",
         "description": "小さなチーム（2人）で$1M ARR到達"
       },
       {
-        "name": "共同創業者による役割分離",
+        "name": "共同創業者体制",
         "description": "Wilsonが開発、Ollyがマーケティング・プロダクトを担当"
       }
     ],
@@ -1553,7 +1549,7 @@
         "description": "パブリックテスティモニアルページでプログラマティックSEOを実現"
       },
       {
-        "name": "Product-led growth",
+        "name": "ソーシャルプルーフ",
         "description": "EmbedウィジェットのPowered byリンクで自然な口コミを獲得"
       }
     ],
@@ -1618,7 +1614,7 @@
     },
     "businessStrategy": [
       {
-        "name": "メディア・コンテンツビジネス",
+        "name": "教育・コンテンツ",
         "description": "インタビュー記事とデータベースでSEOモートを構築"
       },
       {
@@ -1626,7 +1622,7 @@
         "description": "広告・サブスク・アフィリエイトの3本柱で収益を安定化"
       },
       {
-        "name": "B2C ワンタイム課金",
+        "name": "ワンタイム課金",
         "description": "Premiumメンバーシップをワンタイム$695に移行"
       },
       {

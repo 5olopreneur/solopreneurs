@@ -1283,17 +1283,17 @@
     "xFollowers": 30000,
     "techStack": {
       "frontend": {
-        "value": "React",
+        "value": "Next.js, Tailwind CSS, shadcn/ui",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "Node.js",
+        "value": "Supabase (BaaS)",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "PostgreSQL (via Supabase)",
         "sources": [],
         "certainty": "low"
       },
@@ -1303,12 +1303,12 @@
         "certainty": "low"
       },
       "libraries": {
-        "value": "不明",
+        "value": "shadcn/ui, Supabase",
         "sources": [],
         "certainty": "low"
       },
       "ai": {
-        "value": "不明",
+        "value": "Claude",
         "sources": [],
         "certainty": "low"
       }
@@ -1346,7 +1346,7 @@
       }
     ],
     "devTools": {
-      "codeAI": null,
+      "codeAI": "Claude",
       "assistant": null,
       "uiGen": null
     }
@@ -1495,12 +1495,12 @@
     "xFollowers": 30000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "TypeScript, Angular, Tailwind CSS",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "Node.js",
         "sources": [],
         "certainty": "low"
       },
@@ -1510,12 +1510,12 @@
         "certainty": "low"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Cloudflare",
         "sources": [],
         "certainty": "low"
       },
       "libraries": {
-        "value": "不明",
+        "value": "Stripe, Mux, PostHog, Zapier, Framer",
         "sources": [],
         "certainty": "low"
       },
@@ -1586,27 +1586,27 @@
     "xFollowers": 140000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "React, HAML templates, Bootstrap",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "Ruby on Rails",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "PostgreSQL",
         "sources": [],
         "certainty": "low"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Heroku, AWS S3",
         "sources": [],
         "certainty": "low"
       },
       "libraries": {
-        "value": "不明",
+        "value": "Sidekiq, Devise, SendGrid, Sentry, New Relic",
         "sources": [],
         "certainty": "low"
       },

@@ -60,6 +60,16 @@ function normalizeLabel(value: string): string {
   return value.replace(/\s*[（(][^）)]+[）)]/, '').trim();
 }
 
+function formatFollowers(n: number): string {
+  if (n >= 10000) {
+    return ` (${Math.round(n / 10000)}万フォロワー)`;
+  }
+  if (n >= 1000) {
+    return ` (${Math.round(n / 1000)}千フォロワー)`;
+  }
+  return ` (${n}フォロワー)`;
+}
+
 function countOccurrences(lists: string[][]): Map<string, number> {
   const counts = new Map<string, number>();
   lists.forEach(list => {
@@ -162,7 +172,7 @@ const allMarketing = [...mktCounts.keys()].sort();
         <div class="p-6 flex flex-col h-full">
           <div class="flex items-start justify-between mb-4">
             <div>
-              <h2 class="text-xl font-bold text-gray-900">{s.emoji ? `${s.emoji} ${s.name}` : s.name}{s.xFollowers && ` (${Math.round(s.xFollowers / 10000)}万フォロワー)`}</h2>
+              <h2 class="text-xl font-bold text-gray-900">{s.emoji ? `${s.emoji} ${s.name}` : s.name}{s.xFollowers ? formatFollowers(s.xFollowers) : ''}</h2>
               <p class="text-sm text-gray-500">{s.flag} {s.country}</p>
             </div>
           </div>

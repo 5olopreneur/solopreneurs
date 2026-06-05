@@ -709,5 +709,953 @@
       "assistant": null,
       "uiGen": null
     }
+  },
+  {
+    "id": "jon-yongfook",
+    "name": "Jon Yongfook",
+    "emoji": "👦🏻",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "flag": "🇸🇬",
+    "products": [
+      {
+        "name": "Bannerbear",
+        "url": "https://www.bannerbear.com",
+        "description": "画像・動画を自動生成するAPIおよびノーコードツール"
+      },
+      {
+        "name": "Promomatic",
+        "url": null,
+        "description": "マーケティングサイト用OG画像自動生成ツール（売却）"
+      },
+      {
+        "name": "Montage",
+        "url": null,
+        "description": "プリビルドコンポーネントでアプリをデザインするツール（売却）"
+      }
+    ],
+    "xHandle": "yongfook",
+    "xFollowers": 160000,
+    "techStack": {
+      "frontend": {
+        "value": "Ruby on Rails (Slim), Bulma, jQuery",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.bannerbear.com/blog/the-bannerbear-marketing-site-tech-stack/",
+            "title": "The Tools I Use for The Bannerbear SaaS Marketing Site"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "backend": {
+        "value": "Ruby on Rails, Redis, ImageMagick",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://startupfounderstories.com/stories/jon-yongfook-bannerbear-10k-mrr-api",
+            "title": "Jon Yongfook Bootstrapped Bannerbear to $10K MRR"
+          }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "PostgreSQL",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "AWS, Netlify",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.bannerbear.com/blog/the-bannerbear-marketing-site-tech-stack/",
+            "title": "The Tools I Use for The Bannerbear SaaS Marketing Site"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "Ruby on Rails, Redis, ImageMagick, Stripe",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://startupfounderstories.com/stories/jon-yongfook-bannerbear-10k-mrr-api",
+            "title": "Jon Yongfook Bootstrapped Bannerbear to $10K MRR"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "独自画像生成パイプライン",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "API-first SaaS",
+        "description": "デベロッパー向けAPIとして提供し、ノーコード層も併設"
+      },
+      {
+        "name": "50:50 coding-marketing",
+        "description": "1週間コーディング、1週間マーケティングのリズムで運営"
+      },
+      {
+        "name": "ドキュメントドリブン販売",
+        "description": "API製品の場合、ドキュメントが充実しているほどコンバージョンが上がる"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "12 Startups in 12 Monthsチャレンジからの収益公開"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "16万フォロワー。開発過程と失敗を含めて発信"
+      },
+      {
+        "name": "SEO / コンテンツ",
+        "description": "ブログとドキュメントでオーガニック流入を獲得"
+      },
+      {
+        "name": "Product Hunt",
+        "description": "新プロダクトの立ち上げ時にローンチ"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "kyle-gawley",
+    "name": "Kyle Gawley",
+    "emoji": "👨🏼",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "flag": "🇬🇧",
+    "products": [
+      {
+        "name": "Gravity",
+        "url": "https://usegravity.app",
+        "description": "Node.js & React SaaSボイラープレート。認証・決済・LP付き"
+      },
+      {
+        "name": "Alertly",
+        "url": null,
+        "description": "AI営業支援・リードハンティングツール"
+      },
+      {
+        "name": "How to Build a SaaS",
+        "url": "https://usegravity.app/how-to-build-a-saas",
+        "description": "SaaS構築コース"
+      }
+    ],
+    "xHandle": "kylegawley",
+    "xFollowers": 40000,
+    "techStack": {
+      "frontend": {
+        "value": "React",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://usegravity.app/how-to-build-a-saas",
+            "title": "How to Build a SaaS Product Course"
+          }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Node.js",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://usegravity.app/how-to-build-a-saas",
+            "title": "How to Build a SaaS Product Course"
+          }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "MySQL",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://usegravity.app/how-to-build-a-saas",
+            "title": "How to Build a SaaS Product Course"
+          }
+        ],
+        "certainty": "high"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "Node.js, React, Stripe",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.indiehackers.com/post/escaping-death-to-find-his-destiny-kyle-gawley-of-gravity-fc8c33dc4a",
+            "title": "Escaping Death to find his Destiny | Kyle Gawley of Gravity"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "B2B SaaSボイラープレート販売",
+        "description": "開発者が繰り返し書くコードを製品化し高額で販売"
+      },
+      {
+        "name": "高額価格設定",
+        "description": "$995のライフタイムライセンス。安価だと信頼を損なう"
+      },
+      {
+        "name": "教育コンテンツ併売",
+        "description": "コースと書籍で収益を多角化"
+      },
+      {
+        "name": "VCからの脱却",
+        "description": "ベンチャー資金調達による健康被害からブートストラップへ転向"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "X/Twitter",
+        "description": "4万フォロワー。起業の教訓と風刺を発信"
+      },
+      {
+        "name": "Indie Hackers",
+        "description": "毎日コミュニティに参加し質問に回答"
+      },
+      {
+        "name": "SEO",
+        "description": "検索流入を主要チャネルとして活用"
+      },
+      {
+        "name": "Product Hunt",
+        "description": "Gravityの新バージョンをローンチ"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "tibo-louis-lucas",
+    "name": "Tibo Louis-Lucas",
+    "emoji": "👨🏻",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "products": [
+      {
+        "name": "Revid AI",
+        "url": "https://revid.ai",
+        "description": "AI動画生成・ソーシャルメディア自動化プラットフォーム"
+      },
+      {
+        "name": "Outrank",
+        "url": null,
+        "description": "SEOツール"
+      },
+      {
+        "name": "Feather",
+        "url": "https://feather.so",
+        "description": "NotionをSEOフレンドリーなブログに変換"
+      },
+      {
+        "name": "SuperX",
+        "url": null,
+        "description": "Xクリエイター向けAIツール"
+      },
+      {
+        "name": "Tweet Hunter",
+        "url": null,
+        "description": "Twitter/Xのスケジュール・分析ツール（売却）"
+      },
+      {
+        "name": "Taplio",
+        "url": null,
+        "description": "LinkedIn成長ツール（売却）"
+      }
+    ],
+    "xHandle": "tibo_maker",
+    "xFollowers": 190000,
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://softrankings.com/collections/1c73634d-d33f-4887-826e-f27094704e82",
+            "title": "19 SaaS Tools Powering Tibo’s Startups"
+          }
+        ],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "Node.js",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://saasclub.io/podcast/saas-distribution-channel-tibo-louis-lucas-tmaker/",
+            "title": "The SaaS Distribution Channel Bet Behind a $12M Portfolio"
+          }
+        ],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "Supabase, Firebase",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://softrankings.com/collections/1c73634d-d33f-4887-826e-f27094704e82",
+            "title": "19 SaaS Tools Powering Tibo’s Startups"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "hosting": {
+        "value": "Vercel",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://softrankings.com/collections/1c73634d-d33f-4887-826e-f27094704e82",
+            "title": "19 SaaS Tools Powering Tibo’s Startups"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "Stripe, Paddle, Resend, PostHog",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://softrankings.com/collections/1c73634d-d33f-4887-826e-f27094704e82",
+            "title": "19 SaaS Tools Powering Tibo’s Startups"
+          }
+        ],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "Claude, Gemini, Cursor, Stable Diffusion",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://softrankings.com/collections/1c73634d-d33f-4887-826e-f27094704e82",
+            "title": "19 SaaS Tools Powering Tibo’s Startups"
+          },
+          {
+            "type": "podcast",
+            "url": "https://creatoreconomy.so/p/how-this-solo-founder-bootstrapped-to-1m-a-month-tibo-louis-lucas",
+            "title": "How This Solo Founder Bootstrapped 5 AI Products to $1M+ / Month"
+          }
+        ],
+        "certainty": "medium"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "ポートフォリオ戦略",
+        "description": "Tweet Hunter、Taplio、Revid AIなど複数プロダクトで収益を分散"
+      },
+      {
+        "name": "早期有料化",
+        "description": "初日から課金し、需要の真偽を迅速に検証"
+      },
+      {
+        "name": "高速イテレーション",
+        "description": "4か月で11プロダクトを立ち上げ、機能しないものは早く切る"
+      },
+      {
+        "name": "フリーツールSEO",
+        "description": "検索クエリに合わせた無料ツールでGoogle上位を獲得"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "$1M/月の収益まで成長過程を公開"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "19万フォロワー。ビジネス成長の学びを発信"
+      },
+      {
+        "name": "SEO",
+        "description": "フリーツールとコンテンツで検索流入を獲得"
+      },
+      {
+        "name": "Newsletter",
+        "description": "tibo.beehiiv.comで定期的に配信"
+      }
+    ],
+    "devTools": {
+      "codeAI": "Cursor",
+      "assistant": "Claude / Gemini",
+      "uiGen": null
+    }
+  },
+  {
+    "id": "sahil-lavingia",
+    "name": "Sahil Lavingia",
+    "emoji": "🧔🏽",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "Gumroad",
+        "url": "https://gumroad.com",
+        "description": "クリエイター向けデジタル販売プラットフォーム"
+      },
+      {
+        "name": "AskMyBook",
+        "url": null,
+        "description": "著書の内容をQ&AできるAIツール"
+      },
+      {
+        "name": "The Minimalist Entrepreneur",
+        "url": null,
+        "description": "著書『最小主義者の起業』"
+      },
+      {
+        "name": "SHL Capital",
+        "url": null,
+        "description": "早期スタートアップへの年間$15M投資"
+      }
+    ],
+    "xHandle": "shl",
+    "xFollowers": 390000,
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React, Tailwind CSS, shadcn/ui",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+            "title": "Gumroad CEO’s playbook to 40x his team’s productivity with v0, Cursor, and Devin"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "backend": {
+        "value": "Python / Django, Node.js",
+        "sources": [
+          {
+            "type": "github",
+            "url": "https://github.com/sahillavingia",
+            "title": "Sahil Lavingia - GitHub"
+          },
+          {
+            "type": "blog",
+            "url": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+            "title": "Gumroad CEO’s playbook to 40x his team’s productivity with v0, Cursor, and Devin"
+          }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "AWS, Vercel",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+            "title": "Gumroad CEO’s playbook to 40x his team’s productivity with v0, Cursor, and Devin"
+          },
+          {
+            "type": "github",
+            "url": "https://github.com/sahillavingia",
+            "title": "Sahil Lavingia - GitHub"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "Stripe, OpenAI API, shadcn/ui",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+            "title": "Gumroad CEO’s playbook to 40x his team’s productivity with v0, Cursor, and Devin"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "OpenAI API, v0, Cursor, Devin",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+            "title": "Gumroad CEO’s playbook to 40x his team’s productivity with v0, Cursor, and Devin"
+          }
+        ],
+        "certainty": "high"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "手数料モデル",
+        "description": "クリエイターが販売する際に手数料を徴収するマーケットプレイス型"
+      },
+      {
+        "name": "最小主義経営",
+        "description": "フルタイム従業員ゼロ、会議なし、締切なしの非同期運営"
+      },
+      {
+        "name": "クリエイターエコノミー基盤",
+        "description": "個人がデジタル商品を直接販売できるインフラを提供"
+      },
+      {
+        "name": "複数収益源",
+        "description": "プラットフォーム手数料に加え、書籍・投資で収益を多角化"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "収益・失敗・意思決定を含めてオープンに共有"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "39万フォロワー。起業とテクノロジーへの強い信念を発信"
+      },
+      {
+        "name": "書籍",
+        "description": "The Minimalist Entrepreneurで権威と信頼を構築"
+      },
+      {
+        "name": "Newsletter",
+        "description": "定期的なメルマガでオーディエンスと継続的に対話"
+      }
+    ],
+    "devTools": {
+      "codeAI": "Cursor",
+      "assistant": "Claude",
+      "uiGen": "v0"
+    }
+  },
+  {
+    "id": "jim-raptis",
+    "name": "Jim Raptis",
+    "emoji": "👨🏻",
+    "country": "Greece",
+    "countryCode": "GR",
+    "flag": "🇬🇷",
+    "products": [
+      {
+        "name": "MagicPattern",
+        "url": "https://www.magicpattern.design",
+        "description": "デザイナー向けパターン・シェイプ生成ツール"
+      },
+      {
+        "name": "BrandBird",
+        "url": "https://www.brandbird.app",
+        "description": "スクリーンショットを美しいモックアップに変換"
+      },
+      {
+        "name": "SuperMotion",
+        "url": null,
+        "description": "モーション効果付きショート動画作成ツール"
+      }
+    ],
+    "xHandle": "d__raptis",
+    "xFollowers": 30000,
+    "techStack": {
+      "frontend": {
+        "value": "React",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "Node.js",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "Vercel",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "ポートフォリオ戦略",
+        "description": "MagicPattern、BrandBird、SuperMotionなどマイクロSaaSを複数運営"
+      },
+      {
+        "name": "VCからブートストラップへ",
+        "description": "ベンチャー資金調達・Exit経験後、ブートストラップに転向"
+      },
+      {
+        "name": "デザイナー向けツール特化",
+        "description": "デザイン・ブランディングのニッチに特化したプロダクト群"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "MRRやプロダクトの成長を公開"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "3万フォロワー。UI/UXデザインのTipsを発信"
+      },
+      {
+        "name": "Product Hunt",
+        "description": "新プロダクトの立ち上げ時にローンチ"
+      },
+      {
+        "name": "Newsletter",
+        "description": "UIデザインのTipsを定期配信"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "nicolai-klemke",
+    "name": "Nicolai Klemke",
+    "emoji": "🧔🏻‍♂️",
+    "country": "Germany",
+    "countryCode": "DE",
+    "flag": "🇩🇪",
+    "products": [
+      {
+        "name": "Neural Frames",
+        "url": "https://neuralframes.com",
+        "description": "AIミュージックビデオ生成プラットフォーム"
+      }
+    ],
+    "xHandle": "nicolaiklemke",
+    "xFollowers": 2000,
+    "techStack": {
+      "frontend": {
+        "value": "TypeScript, React",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://happybootstrapping.com/p/from-laser-physics-to-seven-figure",
+            "title": "From Laser Physics to Seven-Figure Revenue: Nicolai Klemke Builds Neural Frames"
+          }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Python, FastAPI",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://happybootstrapping.com/p/from-laser-physics-to-seven-figure",
+            "title": "From Laser Physics to Seven-Figure Revenue: Nicolai Klemke Builds Neural Frames"
+          }
+        ],
+        "certainty": "high"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "RunPod, 自前GPUクラウド",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://happybootstrapping.com/p/from-laser-physics-to-seven-figure",
+            "title": "From Laser Physics to Seven-Figure Revenue: Nicolai Klemke Builds Neural Frames"
+          }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Stable Diffusion, ComfyUI",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://happybootstrapping.com/p/from-laser-physics-to-seven-figure",
+            "title": "From Laser Physics to Seven-Figure Revenue: Nicolai Klemke Builds Neural Frames"
+          },
+          {
+            "type": "blog",
+            "url": "https://berlin.aitinkerers.org/talks/rsvp_6SRff-YsAgM",
+            "title": "Hacking Stable Diffusion to generate audioreactive animations"
+          }
+        ],
+        "certainty": "high"
+      },
+      "ai": {
+        "value": "Stable Diffusion, 自社モデル",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://happybootstrapping.com/p/from-laser-physics-to-seven-figure",
+            "title": "From Laser Physics to Seven-Figure Revenue: Nicolai Klemke Builds Neural Frames"
+          }
+        ],
+        "certainty": "high"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "B2Cクレジット制",
+        "description": "月額$20〜$100のクレジットパックで動画生成"
+      },
+      {
+        "name": "ニッチ特化",
+        "description": "ミュージシャン向けに特化し、汎用AI動画ツールとの差別化"
+      },
+      {
+        "name": "コミュニティ主導成長",
+        "description": "Discordでクリエイターコミュニティを構築"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Reddit",
+        "description": "Stable Diffusionサブレディットなどで初期ユーザー200人を獲得"
+      },
+      {
+        "name": "YouTube",
+        "description": "400本以上のチュートリアルでユーザー教育"
+      },
+      {
+        "name": "SEO",
+        "description": "3万語のAI動画生成ガイドで権威性を獲得"
+      },
+      {
+        "name": "Influencerマーケティング",
+        "description": "影響力のあるミュージシャンに無料クレジットを提供"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "olly-meakings",
+    "name": "Olly Meakings",
+    "emoji": "👨🏻‍🦰",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "flag": "🇬🇧",
+    "products": [
+      {
+        "name": "Senja",
+        "url": "https://senja.io",
+        "description": "テスティモニアル収集・表示プラットフォーム"
+      },
+      {
+        "name": "Landing Pages Explained",
+        "url": "https://www.landingpagesexplained.com",
+        "description": "ランディングページの解説ディレクトリ"
+      }
+    ],
+    "xHandle": "helloitsolly",
+    "xFollowers": 30000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "Freemium SaaS",
+        "description": "15件まで無料で収集、その後有料プランへ移行"
+      },
+      {
+        "name": "Micro-SaaS",
+        "description": "小さなチーム（2人）で$1M ARR到達"
+      },
+      {
+        "name": "共同創業者による役割分離",
+        "description": "Wilsonが開発、Ollyがマーケティング・プロダクトを担当"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "Xで#buildinpublicを通じて共同創業者と出会い、成長を公開"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "3万フォロワー。インディーハッカー向けマーケティングの学びを発信"
+      },
+      {
+        "name": "SEO",
+        "description": "パブリックテスティモニアルページでプログラマティックSEOを実現"
+      },
+      {
+        "name": "Product-led growth",
+        "description": "EmbedウィジェットのPowered byリンクで自然な口コミを獲得"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "pat-walls",
+    "name": "Pat Walls",
+    "emoji": "🧔🏻‍♂️",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "Starter Story",
+        "url": "https://starterstory.com",
+        "description": "ブートストラップ起業家のインタビュー・ケーススタディプラットフォーム"
+      },
+      {
+        "name": "Lean SEO",
+        "url": null,
+        "description": "SEOコース"
+      }
+    ],
+    "xHandle": "thepatwalls",
+    "xFollowers": 140000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "メディア・コンテンツビジネス",
+        "description": "インタビュー記事とデータベースでSEOモートを構築"
+      },
+      {
+        "name": "複数収益源",
+        "description": "広告・サブスク・アフィリエイトの3本柱で収益を安定化"
+      },
+      {
+        "name": "ワンタイム課金",
+        "description": "Premiumメンバーシップをワンタイム$695に移行"
+      },
+      {
+        "name": "システム化・自動化",
+        "description": "開発スキルを活かし、可能な限り業務を自動化"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Reddit",
+        "description": "初期はr/entrepreneurでケーススタディを投稿してトラフィック獲得"
+      },
+      {
+        "name": "SEO",
+        "description": "ケーススタディを検索キーワードに最適化し1M/月PV到達"
+      },
+      {
+        "name": "YouTube",
+        "description": "Prep doc・Treatment・Big Ideaフレームワークで週2〜3本を継続"
+      },
+      {
+        "name": "Newsletter",
+        "description": "スポンサー付きメルマガで収益化"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
   }
 ]

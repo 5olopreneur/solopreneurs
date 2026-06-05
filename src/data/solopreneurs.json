@@ -29,6 +29,7 @@
       }
     ],
     "xHandle": "levelsio",
+    "xFollowers": 890000,
     "techStack": {
       "frontend": {
         "value": "jQuery, vanilla HTML/CSS",
@@ -174,6 +175,7 @@
       }
     ],
     "xHandle": "arvidkahl",
+    "xFollowers": 200000,
     "techStack": {
       "frontend": {
         "value": "Vue.js, Laravel Blade",
@@ -329,6 +331,7 @@
       }
     ],
     "xHandle": "tdinh_me",
+    "xFollowers": 190000,
     "techStack": {
       "frontend": {
         "value": "React, Next.js, Tailwind CSS",
@@ -475,6 +478,7 @@
       }
     ],
     "xHandle": "dannypostma",
+    "xFollowers": 170000,
     "techStack": {
       "frontend": {
         "value": "Next.js, React",
@@ -597,6 +601,7 @@
       }
     ],
     "xHandle": "marclou",
+    "xFollowers": 350000,
     "techStack": {
       "frontend": {
         "value": "Next.js, React, Tailwind CSS",

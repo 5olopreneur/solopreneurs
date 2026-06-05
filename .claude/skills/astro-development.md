@@ -49,13 +49,15 @@ import Layout from '../layouts/Layout.astro';
 
 ```astro
 ---
+import solopreneurs from '../data/solopreneurs.json';
+
 export function getStaticPaths() {
-  return [
-    { params: { id: 'pieter-levels' } },
-    { params: { id: 'arvid-kahl' } },
-  ];
+  return solopreneurs.map((s) => ({
+    params: { id: s.id },
+    props: { solopreneur: s },
+  }));
 }
-const { id } = Astro.params;
+const { solopreneur } = Astro.props;
 ---
 ```
 

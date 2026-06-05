@@ -45,7 +45,7 @@
 | ビルドツール | Vite | （Astro同梱）|
 | 言語 | TypeScript | strictモード |
 | ホスティング | Cloudflare Pages | — |
-| デプロイ | Wrangler | — |
+| デプロイ | Cloudflare Pages（Git連携） | — |
 
 ## ディレクトリ構造
 
@@ -59,9 +59,9 @@ solopreneurs/
 ├── PROGRESS.md               # 進捗管理
 ├── architecture.md           # 本ファイル
 ├── README.md                 # プロジェクト概要
-├── AGENTS.md                 # README.md のシンボリックリンク
-├── CLAUDE.md                 # README.md のシンボリックリンク
-├── GEMINI.md                 # README.md のシンボリックリンク
+├── AGENTS.md                 # README.md と同内容
+├── CLAUDE.md                 # README.md と同内容
+├── GEMINI.md                 # README.md と同内容
 ├── src/
 │   ├── layouts/
 │   │   └── Layout.astro      # 共通レイアウト（ヘッダー/フッター）
@@ -69,12 +69,14 @@ solopreneurs/
 │   │   ├── index.astro       # トップページ（カードグリッド + フィルター）
 │   │   └── [id].astro        # 詳細ページ（動的ルーティング）
 │   ├── data/
-│   │   └── solopreneurs.json # ソロプレナーデータ（5名分）
+│   │   └── solopreneurs.json # ソロプレナーデータ（13名分）
 │   └── styles/
 │       └── global.css        # Tailwind CSS インポート + カスタムスタイル
 ├── public/
 │   ├── favicon.ico
-│   └── favicon.svg
+│   ├── favicon.svg
+│   ├── robots.txt
+│   └── sitemap.xml
 └── dist/                     # ビルド成果物（gitignore）
 ```
 

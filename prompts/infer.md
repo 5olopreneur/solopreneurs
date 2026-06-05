@@ -1,13 +1,13 @@
-# 技術スタック推測プロンプト
+# 技術スタック・ビジネス戦略・マーケティング推測プロンプト
 
 ## 目的
 
-情報収集フェーズで作成された「観察メモ」を入力として、各技術スタック属性の**最も確からしい値**を推測し、`solopreneurs.json` 形式のJSONを出力する。
+情報収集フェーズで作成された「観察メモ」を入力として、各属性の**最も確からしい値**を推測し、`solopreneurs.json` 形式のJSONを出力する。
 
 ## 入力
 
 - 対象ソロプレナーの観察メモ（`collect.md` の出力）
-- 対象ソロプレナーの基本情報（名前、国、プロダクト一覧、Xアカウント）
+- 対象ソロプレナーの基本情報（名前、国、プロダクト一覧、Xアカウント、フォロワー数）
 
 ## 推論ルール
 
@@ -15,11 +15,11 @@
 
 | 確信度 | 条件 |
 |--------|------|
-| **high** | 複数の独立した情報源（📄🐙🎙️🐦のうち2種類以上）で同一の技術が言及されている。または、GitHubの言語統計・package.jsonなどの客観的データで示されている。 |
+| **high** | 複数の独立した情報源（📄🐙🎙️🐦のうち2種類以上）で同一の技術・戦略・手法が言及されている。または、GitHubの言語統計・package.jsonなどの客観的データで示されている。 |
 | **medium** | 1つの情報源で明示的に言及されている。または、複数の断片的な言及から整合的に読み取れる。 |
 | **low** | 推論が必要。類似プロダクトの一般的な技術選定、または1つの断片的な言及に基づく。間違いの可能性が高いことを前提とする。 |
 
-### 各属性の推測ガイドライン
+### 技術スタック（techStack）の推測ガイドライン
 
 | 属性 | 推測の根拠 | 注意点 |
 |------|-----------|--------|
@@ -38,49 +38,87 @@
 | **assistant** | AIアシスタント。Claude/ChatGPT/Gemini/Perplexityなど。 | 同上。推測はしない |
 | **uiGen** | UI生成・プロトタイピングツール。v0/Bolt/Tempo/Lovableなど。 | 同上。推測はしない |
 
+### ビジネス戦略（businessStrategy）の推測ガイドライン
+
+| 属性 | 推測の根拠 | 注意点 |
+|------|-----------|--------|
+| **name** | 戦略のカテゴリ名。簡潔に（例: B2C ワンタイム課金、ポートフォリオ戦略） | 補足説明は `description` に分ける。括弧書きは極力避ける |
+| **description** | 戦略の具体的な内容や特徴 | 2〜3行程度で簡潔に |
+
+### マーケティング手法（marketing）の推測ガイドライン
+
+| 属性 | 推測の根拠 | 注意点 |
+|------|-----------|--------|
+| **name** | 手法のカテゴリ名。簡潔に（例: Build in Public、X/Twitter、SEO） | フォロワー数などの補足は `description` に分ける |
+| **description** | 手法の具体的な内容や規模 | 2〜3行程度で簡潔に |
+
 ## 出力形式（厳密JSON）
 
 ```json
 {
   "id": "[URLスラッグ（kebab-case）]",
   "name": "[フルネーム]",
+  "emoji": "[プロフィール絵文字]",
   "country": "[英語国名]",
   "countryCode": "[ISO 3166-1 alpha-2（大文字2文字）]",
   "flag": "[国旗絵文字]",
-  "products": ["[プロダクト名1]", "[プロダクト名2]"],
+  "products": [
+    {
+      "name": "[プロダクト名]",
+      "url": "[URLまたはnull]",
+      "description": "[プロダクトの簡単な説明]"
+    }
+  ],
   "xHandle": "[Xアカウント（@なし）]",
+  "xFollowers": 123456,
   "techStack": {
     "frontend": {
       "value": "[技術名]",
-      "sources": ["blog", "github"],
+      "sources": [
+        { "type": "blog", "url": "[URL]", "title": "[記事タイトル]" }
+      ],
       "certainty": "high"
     },
     "backend": {
       "value": "[技術名]",
-      "sources": ["blog"],
+      "sources": [
+        { "type": "podcast", "url": "[URL]", "title": "[番組タイトル]" }
+      ],
       "certainty": "medium"
     },
     "database": {
       "value": "[技術名]",
-      "sources": ["podcast"],
-      "certainty": "medium"
+      "sources": [],
+      "certainty": "low"
     },
     "hosting": {
       "value": "[技術名]",
-      "sources": ["github"],
+      "sources": [],
       "certainty": "low"
     },
     "libraries": {
       "value": "[技術名1, 技術名2]",
-      "sources": ["blog", "github"],
+      "sources": [],
       "certainty": "medium"
     },
     "ai": {
       "value": "[技術名1, 技術名2]",
-      "sources": ["blog"],
+      "sources": [],
       "certainty": "high"
     }
   },
+  "businessStrategy": [
+    {
+      "name": "[戦略名]",
+      "description": "[戦略の説明]"
+    }
+  ],
+  "marketing": [
+    {
+      "name": "[手法名]",
+      "description": "[手法の説明]"
+    }
+  ],
   "devTools": {
     "codeAI": "[Cursor / GitHub Copilot / null]",
     "assistant": "[Claude / ChatGPT / null]",
@@ -95,3 +133,4 @@
 - `null` 以外で推測で埋めない（わからない場合は確信度を `low` にしても値は入れるが、devToolsは `null` を許容）
 - 情報源にない技術を「一般的だから」と勝手に追加しない
 - 古い情報（「3年前は〜を使っていた」）を現在の技術スタックとして扱わない
+- `businessStrategy` と `marketing` の `name` に補足情報の括弧を入れない（例: `X/Twitter` で止め、フォロワー数は `description` に書く）

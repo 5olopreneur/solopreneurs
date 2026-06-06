@@ -1669,12 +1669,12 @@
       },
       {
         "name": "LinkDrip",
-        "url": null,
+        "url": "https://www.linkdrip.com",
         "description": "リンク-in-bioツール"
       },
       {
         "name": "Aidbase",
-        "url": null,
+        "url": "https://www.aidbase.ai",
         "description": "AIカスタマーサポートプラットフォーム"
       }
     ],
@@ -1682,29 +1682,29 @@
     "xFollowers": 160000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "Next.js",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "backend": {
-        "value": "Node.js",
+        "value": "Node.js, Better Auth",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "database": {
-        "value": "不明",
+        "value": "Postgres (+ pgvector), Redis, MinIO",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Hetzner, Kubernetes, Docker, WireGuard",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "libraries": {
-        "value": "不明",
+        "value": "Grafana, Prometheus, Forgejo",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "ai": {
         "value": "不明",
@@ -1720,6 +1720,10 @@
       {
         "name": "ブートストラップ",
         "description": "外部資金なしでSaaSを立ち上げ・スケール"
+      },
+      {
+        "name": "フルセルフホスト",
+        "description": "マネージドサービスを最小限に抑え、HetznerやOSSツールで所有権を最大化"
       }
     ],
     "marketing": [
@@ -1733,7 +1737,7 @@
       },
       {
         "name": "YouTube",
-        "description": "Saaス成長戦略の長尺コンテンツ"
+        "description": "SaaS成長戦略の長尺コンテンツ"
       }
     ],
     "devTools": {
@@ -1765,34 +1769,34 @@
     "xFollowers": 90000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "React (v0生成)",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "backend": {
-        "value": "不明",
+        "value": "Node.js",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "database": {
-        "value": "不明",
+        "value": "Firebase, Supabase, MongoDB",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "hosting": {
-        "value": "不明",
+        "value": "GCP, Heroku",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "libraries": {
-        "value": "不明",
+        "value": "Stripe, FFmpeg, LangChain",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "ai": {
-        "value": "不明",
+        "value": "OpenAI, LangChain, v0",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       }
     },
     "businessStrategy": [
@@ -1803,6 +1807,10 @@
       {
         "name": "ブートストラップ",
         "description": "Ciscoを退職後、インディーハッカーとして複数プロダクトを立ち上げ"
+      },
+      {
+        "name": "AIネイティブ開発",
+        "description": "v0などのAIツールでコードエディタを開かずにプロジェクトを完成させる"
       }
     ],
     "marketing": [
@@ -1820,9 +1828,9 @@
       }
     ],
     "devTools": {
-      "codeAI": null,
+      "codeAI": "v0",
       "assistant": null,
-      "uiGen": null
+      "uiGen": "v0"
     }
   },
   {
@@ -1837,35 +1845,30 @@
         "name": "ConvertKit (Kit)",
         "url": "https://kit.com",
         "description": "クリエイター向けメールマーケティングプラットフォーム"
-      },
-      {
-        "name": "The Minimalist Entrepreneur",
-        "url": "https://www.amazon.co.jp/dp/0593192397",
-        "description": "著書『最小主義者の起業』"
       }
     ],
     "xHandle": "nathanbarry",
     "xFollowers": null,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "React",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "backend": {
-        "value": "不明",
+        "value": "Ruby on Rails",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "database": {
-        "value": "不明",
+        "value": "PostgreSQL",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Heroku, AWS",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "libraries": {
         "value": "不明",
@@ -1927,7 +1930,7 @@
       },
       {
         "name": "Makerpad",
-        "url": null,
+        "url": "https://www.makerpad.co",
         "description": "ノーコード教育・コミュニティプラットフォーム（2021年にZapierに売却）"
       }
     ],
@@ -1935,9 +1938,9 @@
     "xFollowers": 200000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "React, Shadcn UI, Tailwind CSS, Motion, Rough Notation",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "backend": {
         "value": "不明",
@@ -1950,19 +1953,19 @@
         "certainty": "low"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Vercel",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "libraries": {
-        "value": "不明",
+        "value": "Webflow, Zapier, Airtable, Memberstack",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "ai": {
-        "value": "不明",
+        "value": "Claude, Cursor, AI Agents, v0",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       }
     },
     "businessStrategy": [
@@ -1977,6 +1980,10 @@
       {
         "name": "スポンサー収入",
         "description": "ニュースレターのスポンサー枠で収益化"
+      },
+      {
+        "name": "AIネイティブ開発",
+        "description": "ノーコード＋AIエージェントで高速プロトタイピング・デプロイ"
       }
     ],
     "marketing": [
@@ -1994,9 +2001,9 @@
       }
     ],
     "devTools": {
-      "codeAI": null,
-      "assistant": null,
-      "uiGen": null
+      "codeAI": "Cursor",
+      "assistant": "Claude",
+      "uiGen": "v0"
     }
   }
 ]

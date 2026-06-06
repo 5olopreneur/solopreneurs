@@ -1653,5 +1653,350 @@
       "assistant": null,
       "uiGen": null
     }
+  },
+  {
+    "id": "simon-hoiberg",
+    "name": "Simon Høiberg",
+    "emoji": "🧔🏻‍♂️",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "flag": "🇩🇰",
+    "products": [
+      {
+        "name": "FeedHive",
+        "url": "https://feedhive.com",
+        "description": "SNS自動化・コンテンツ再利用プラットフォーム"
+      },
+      {
+        "name": "LinkDrip",
+        "url": null,
+        "description": "リンク-in-bioツール"
+      },
+      {
+        "name": "Aidbase",
+        "url": null,
+        "description": "AIカスタマーサポートプラットフォーム"
+      }
+    ],
+    "xHandle": "SimonHoiberg",
+    "xFollowers": 160000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "Node.js",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "ポートフォリオ戦略",
+        "description": "FeedHive、LinkDrip、Aidbaseなど複数のSaaSを運営"
+      },
+      {
+        "name": "ブートストラップ",
+        "description": "外部資金なしでSaaSを立ち上げ・スケール"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "SaaS構築過程と収益を公開"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "16万フォロワー。SaaS成長の学びを発信"
+      },
+      {
+        "name": "YouTube",
+        "description": "Saaス成長戦略の長尺コンテンツ"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "damon-chen",
+    "name": "Damon Chen",
+    "emoji": "👦",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "Testimonial.to",
+        "url": "https://testimonial.to",
+        "description": "ビデオ・テキストテスティモニアル収集プラットフォーム"
+      },
+      {
+        "name": "PDF.ai",
+        "url": "https://pdf.ai",
+        "description": "AI搭載PDFチャット・要約ツール"
+      }
+    ],
+    "xHandle": "damengchen",
+    "xFollowers": 90000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "ハイブリッド課金",
+        "description": "Testimonialはサブスク、PDF.aiは使い放題モデルなど併用"
+      },
+      {
+        "name": "ブートストラップ",
+        "description": "Ciscoを退職後、インディーハッカーとして複数プロダクトを立ち上げ"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Build in Public",
+        "description": "収益と開発過程をオープンに共有"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "9万フォロワー"
+      },
+      {
+        "name": "Product Hunt",
+        "description": "新プロダクトの立ち上げ時にローンチ"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "nathan-barry",
+    "name": "Nathan Barry",
+    "emoji": "🧔🏻‍♂️",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "ConvertKit (Kit)",
+        "url": "https://kit.com",
+        "description": "クリエイター向けメールマーケティングプラットフォーム"
+      },
+      {
+        "name": "The Minimalist Entrepreneur",
+        "url": "https://www.amazon.co.jp/dp/0593192397",
+        "description": "著書『最小主義者の起業』"
+      }
+    ],
+    "xHandle": "nathanbarry",
+    "xFollowers": null,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "サブスク課金",
+        "description": "クリエイター向け月額メールマーケティングSaaS"
+      },
+      {
+        "name": "ブートストラップ",
+        "description": "VC資金を使わずブートストラップで$30M ARR規模に成長"
+      },
+      {
+        "name": "教育・コンテンツ",
+        "description": "書籍とコンテンツで権威を構築"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "X/Twitter",
+        "description": "クリエイター経済と起業の学びを発信"
+      },
+      {
+        "name": "Newsletter",
+        "description": "メールマーケティングの実践者として自社ツールを活用"
+      },
+      {
+        "name": "書籍",
+        "description": "著書で権威と信頼を構築"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "ben-tossell",
+    "name": "Ben Tossell",
+    "emoji": "🧔🏻‍♂️",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "flag": "🇬🇧",
+    "products": [
+      {
+        "name": "Ben's Bites",
+        "url": "https://bensbites.com",
+        "description": "AIニュース・ツール・プロダクトローンチのキュレーションニュースレター"
+      },
+      {
+        "name": "Makerpad",
+        "url": null,
+        "description": "ノーコード教育・コミュニティプラットフォーム（2021年にZapierに売却）"
+      }
+    ],
+    "xHandle": "bentossell",
+    "xFollowers": 200000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "キュレーションメディア",
+        "description": "AI分野のニュースを毎日キュレーションして配信"
+      },
+      {
+        "name": "戦略的Exit",
+        "description": "MakerpadをZapierに売却後、AIニュースレターに転向"
+      },
+      {
+        "name": "スポンサー収入",
+        "description": "ニュースレターのスポンサー枠で収益化"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "Newsletter",
+        "description": "15万人以上の購読者を持つAIニュースレター"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "20万フォロワー。AIツールとプロダクトを紹介"
+      },
+      {
+        "name": "Build in Public",
+        "description": "ニュースレターの成長過程を公開"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
   }
 ]

@@ -22,6 +22,15 @@ const {
     <meta name="description" content={description} />
     <title>{title}</title>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGCLNBJT0C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-SGCLNBJT0C');
+    </script>
   </head>
   <body class="bg-gray-50 text-gray-900 min-h-screen">
     <header class="bg-white border-b border-gray-200">

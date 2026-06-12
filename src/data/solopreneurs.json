@@ -1938,7 +1938,7 @@
     "xFollowers": 200000,
     "techStack": {
       "frontend": {
-        "value": "React, ShadcnUI, Tailwind CSS, Motion, Rough Notation",
+        "value": "React, ShadcnUI, Tailwind CSS, Framer Motion, Rough Notation",
         "sources": [],
         "certainty": "medium"
       },
@@ -2016,22 +2016,17 @@
     "products": [
       {
         "name": "Maker School",
-        "url": "https://www.skool.com/makerschool",
+        "url": "https://www.skool.com/makerschool/about",
         "description": "Make.com・n8nを使ったAIオートメーションエージェンシー構築のSkoolコミュニティ"
       },
       {
         "name": "Make Money With Make.com",
-        "url": null,
+        "url": "https://www.skool.com/makemoneywithmake/about",
         "description": "月$25Kのオートメーションエージェンシーへの道筋を提供する有料コミュニティ"
       },
       {
-        "name": "AI Voice Pioneers",
-        "url": null,
-        "description": "AI音声・ボイスエージェントに特化したコミュニティ"
-      },
-      {
         "name": "1SecondCopy",
-        "url": null,
+        "url": "https://www.linkedin.com/company/1secondcopy/about/",
         "description": "GPT-3搭載の自動コンテンツライティング代理店（過去事業、$90K/月到達）"
       }
     ],
@@ -2039,7 +2034,7 @@
     "xFollowers": 440000,
     "techStack": {
       "frontend": {
-        "value": "Next.js, React, Tailwind CSS, Webflow, Framer",
+        "value": "Next.js, React, Tailwind CSS, Webflow, Framer Motion",
         "sources": [],
         "certainty": "low"
       },
@@ -2121,7 +2116,7 @@
     "products": [
       {
         "name": "College 101",
-        "url": null,
+        "url": "https://shanehummus.teachable.com/p/college101",
         "description": "大学選び・学位・キャリアについてのコース"
       },
       {
@@ -2134,7 +2129,7 @@
     "xFollowers": 1560000,
     "techStack": {
       "frontend": {
-        "value": "Webflow, Framer",
+        "value": "Webflow, Framer Motion",
         "sources": [],
         "certainty": "low"
       },
@@ -2217,7 +2212,7 @@
       },
       {
         "name": "AI Marketing Essentials Guide",
-        "url": "https://ryandoser.com/ai-marketing-guide/",
+        "url": "https://ryandoser.com/ai-marketing-guide",
         "description": "無料のAIマーケティングガイドと自動化テンプレート"
       },
       {
@@ -2227,7 +2222,7 @@
       },
       {
         "name": "FounderBrands",
-        "url": null,
+        "url": "https://www.founderbrands.io",
         "description": "創業者向けパーソナルブランディングサービス（パートナーシップ）"
       }
     ],
@@ -2310,7 +2305,7 @@
   {
     "id": "jono-catliff",
     "name": "Jono Catliff",
-    "emoji": "🧔",
+    "emoji": "👱🏻",
     "country": "Canada",
     "countryCode": "CA",
     "flag": "🇨🇦",
@@ -2327,12 +2322,12 @@
       },
       {
         "name": "Automatable Skool Community",
-        "url": null,
+        "url": "https://www.skool.com/automatable/about",
         "description": "6,000人以上のAIオートメーション学習コミュニティ"
       },
       {
         "name": "Claude Code Course",
-        "url": null,
+        "url": "https://www.linkedin.com/posts/jonocatliff_%F0%9D%90%88-%F0%9D%90%A3%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%9D%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A9%F0%9D%90%A9%F0%9D%90%9E%F0%9D%90%9D-%F0%9D%90%9A-%F0%9D%9F%94%F0%9D%9F%94-%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%A7-share-7462543532629577728-HpKr/",
         "description": "Claude Codeを使ったAIネイティブ開発コース"
       }
     ],

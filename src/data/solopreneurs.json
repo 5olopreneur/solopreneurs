@@ -32,7 +32,7 @@
     "xFollowers": 890000,
     "techStack": {
       "frontend": {
-        "value": "jQuery, vanilla HTML/CSS",
+        "value": "jQuery, vanilla HTML, CSS",
         "sources": [
           {
             "type": "podcast",
@@ -142,7 +142,7 @@
     ],
     "devTools": {
       "codeAI": "Cursor",
-      "assistant": "Claude / ChatGPT",
+      "assistant": "Claude, ChatGPT",
       "uiGen": null
     }
   },
@@ -190,7 +190,7 @@
         "certainty": "high"
       },
       "backend": {
-        "value": "PHP / Laravel, Elixir",
+        "value": "PHP, Laravel, Elixir",
         "sources": [
           {
             "type": "podcast",
@@ -346,7 +346,7 @@
         "certainty": "high"
       },
       "backend": {
-        "value": "Node.js / Express",
+        "value": "Node.js, Express",
         "sources": [
           {
             "type": "blog",
@@ -504,7 +504,7 @@
         "certainty": "low"
       },
       "hosting": {
-        "value": "AWS / Vercel",
+        "value": "AWS, Vercel",
         "sources": [],
         "certainty": "low"
       },
@@ -611,7 +611,7 @@
         "certainty": "high"
       },
       "backend": {
-        "value": "Node.js / Next.js",
+        "value": "Node.js, Next.js",
         "sources": [
           {
             "type": "blog",
@@ -644,7 +644,7 @@
         "certainty": "high"
       },
       "libraries": {
-        "value": "Prisma, NextAuth, shadcnUI, Stripe",
+        "value": "Prisma, NextAuth, shadcnUi, Stripe",
         "sources": [
           {
             "type": "blog",
@@ -1102,7 +1102,7 @@
     ],
     "devTools": {
       "codeAI": "Cursor",
-      "assistant": "Claude / Gemini",
+      "assistant": "Claude, Gemini",
       "uiGen": null
     }
   },
@@ -1139,7 +1139,7 @@
     "xFollowers": 390000,
     "techStack": {
       "frontend": {
-        "value": "Next.js, React, Tailwind CSS, shadcnUI",
+        "value": "Next.js, React, Tailwind CSS, shadcnUi",
         "sources": [
           {
             "type": "blog",
@@ -1150,7 +1150,7 @@
         "certainty": "medium"
       },
       "backend": {
-        "value": "Python / Django, Node.js",
+        "value": "Python, Django, Node.js",
         "sources": [
           {
             "type": "github",
@@ -1187,7 +1187,7 @@
         "certainty": "medium"
       },
       "libraries": {
-        "value": "Stripe, OpenAI API, shadcnUI",
+        "value": "Stripe, OpenAI API, shadcnUi",
         "sources": [
           {
             "type": "blog",
@@ -1279,7 +1279,7 @@
     "xFollowers": 30000,
     "techStack": {
       "frontend": {
-        "value": "Next.js, Tailwind CSS, shadcnUI",
+        "value": "Next.js, Tailwind CSS, shadcnUi",
         "sources": [],
         "certainty": "low"
       },
@@ -1299,7 +1299,7 @@
         "certainty": "low"
       },
       "libraries": {
-        "value": "shadcnUI, Supabase",
+        "value": "shadcnUi, Supabase",
         "sources": [],
         "certainty": "low"
       },
@@ -1692,7 +1692,7 @@
         "certainty": "medium"
       },
       "database": {
-        "value": "Postgres (+ pgvector), Redis, MinIO",
+        "value": "PostgreSQL, pgvector, Redis, MinIO",
         "sources": [],
         "certainty": "medium"
       },
@@ -1769,7 +1769,7 @@
     "xFollowers": 90000,
     "techStack": {
       "frontend": {
-        "value": "React (v0生成)",
+        "value": "React",
         "sources": [],
         "certainty": "medium"
       },
@@ -1848,7 +1848,7 @@
       }
     ],
     "xHandle": "nathanbarry",
-    "xFollowers": null,
+    "xFollowers": 150000,
     "techStack": {
       "frontend": {
         "value": "React",
@@ -1938,17 +1938,17 @@
     "xFollowers": 200000,
     "techStack": {
       "frontend": {
-        "value": "React, Shadcn UI, Tailwind CSS, Motion, Rough Notation",
+        "value": "React, ShadcnUI, Tailwind CSS, Motion, Rough Notation",
         "sources": [],
         "certainty": "medium"
       },
       "backend": {
-        "value": "不明",
+        "value": "Node.js, Next.js API Routes, Supabase Edge Functions",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "Supabase, PostgreSQL, Airtable + Zapier",
         "sources": [],
         "certainty": "low"
       },
@@ -2039,17 +2039,17 @@
     "xFollowers": 440000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "Next.js, React, Tailwind CSS, Webflow, Framer",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "Make.com, n8n, Node.js",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "Airtable, Supabase",
         "sources": [],
         "certainty": "low"
       },
@@ -2064,9 +2064,9 @@
         "certainty": "medium"
       },
       "ai": {
-        "value": "OpenAI API, Gemini",
+        "value": "Claude Code, OpenAI API, Gemini",
         "sources": [],
-        "certainty": "medium"
+        "certainty": "high"
       }
     },
     "businessStrategy": [
@@ -2081,6 +2081,10 @@
       {
         "name": "サブスク課金",
         "description": "Skoolベースの月額コミュニティで反復収益を獲得"
+      },
+      {
+        "name": "AIネイティブ開発",
+        "description": "Claude Code中心の高速プロトタイピングでウェブサイトやツールを実装"
       }
     ],
     "marketing": [
@@ -2102,8 +2106,8 @@
       }
     ],
     "devTools": {
-      "codeAI": null,
-      "assistant": null,
+      "codeAI": "Claude Code",
+      "assistant": "Claude",
       "uiGen": null
     }
   },
@@ -2130,34 +2134,34 @@
     "xFollowers": 1560000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "Webflow, Framer",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "Zapier, Make.com",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "Airtable, Google Sheets",
         "sources": [],
         "certainty": "low"
       },
       "hosting": {
-        "value": "Teachable, YouTube",
+        "value": "YouTube, Teachable",
         "sources": [],
         "certainty": "medium"
       },
       "libraries": {
-        "value": "Teachable",
+        "value": "Loom, Teachable",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       },
       "ai": {
-        "value": "不明",
+        "value": "Claude, ChatGPT, Gemini, Grok",
         "sources": [],
-        "certainty": "low"
+        "certainty": "medium"
       }
     },
     "businessStrategy": [
@@ -2172,6 +2176,10 @@
       {
         "name": "コース販売",
         "description": "College 101などの有料コースを販売"
+      },
+      {
+        "name": "AI補助型制作",
+        "description": "AIをスクリプト生成やアイデア検証の補助に使い、人間の「taste」で最終判断"
       }
     ],
     "marketing": [
@@ -2190,7 +2198,7 @@
     ],
     "devTools": {
       "codeAI": null,
-      "assistant": null,
+      "assistant": "Claude, ChatGPT, Gemini, Grok",
       "uiGen": null
     }
   },
@@ -2227,34 +2235,34 @@
     "xFollowers": 40000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "Astro, Tailwind CSS",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "Make.com, Cloudflare Workers",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "Airtable, Supabase",
         "sources": [],
         "certainty": "low"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Cloudflare Pages, Vercel",
         "sources": [],
         "certainty": "low"
       },
       "libraries": {
-        "value": "Make.com",
+        "value": "WordPress, GitHub",
         "sources": [],
         "certainty": "medium"
       },
       "ai": {
-        "value": "Claude, Gemini, OpenAI API, ElevenLabs, HeyGen, Opus Clip",
+        "value": "Claude Code, Claude, Cursor, v0",
         "sources": [],
-        "certainty": "medium"
+        "certainty": "high"
       }
     },
     "businessStrategy": [
@@ -2269,6 +2277,10 @@
       {
         "name": "コミュニティ",
         "description": "650人以上のAIマーケティングコミュニティを運営"
+      },
+      {
+        "name": "AIネイティブ開発",
+        "description": "Astro + Cloudflareの軽量スタックをClaude Codeで構築。Skillファイルでコンテンツ自動化"
       }
     ],
     "marketing": [
@@ -2290,9 +2302,9 @@
       }
     ],
     "devTools": {
-      "codeAI": "Claude Code",
+      "codeAI": "Claude Code / Cursor",
       "assistant": "Claude",
-      "uiGen": null
+      "uiGen": "v0"
     }
   },
   {
@@ -2328,34 +2340,34 @@
     "xFollowers": 140000,
     "techStack": {
       "frontend": {
-        "value": "不明",
+        "value": "Next.js, Webflow, Tailwind CSS, shadcnUi, LottieFiles, Framer Motion",
         "sources": [],
         "certainty": "low"
       },
       "backend": {
-        "value": "不明",
+        "value": "n8n, Make.com, Node.js",
         "sources": [],
         "certainty": "low"
       },
       "database": {
-        "value": "不明",
+        "value": "Airtable, Supabase",
         "sources": [],
         "certainty": "low"
       },
       "hosting": {
-        "value": "不明",
+        "value": "Vercel, Cloudflare",
         "sources": [],
         "certainty": "low"
       },
       "libraries": {
-        "value": "n8n, Make.com, GoHighLevel, Vapi",
+        "value": "n8n, Make.com, GoHighLevel, Vapi, Spline, MotionSite, Efferd",
         "sources": [],
         "certainty": "medium"
       },
       "ai": {
-        "value": "Claude Code, Gemini, ChatGPT",
+        "value": "Claude Code, Claude Design, Gemini, ChatGPT",
         "sources": [],
-        "certainty": "medium"
+        "certainty": "high"
       }
     },
     "businessStrategy": [
@@ -2370,6 +2382,10 @@
       {
         "name": "オーディエンス先行",
         "description": "YouTubeコンテンツから代理店とコミュニティへの流れを作る"
+      },
+      {
+        "name": "AIネイティブ開発",
+        "description": "Claude Codeをコアにvibe codingでウェブサイト・プレゼン・SEOコンテンツを短時間生成"
       }
     ],
     "marketing": [
@@ -2393,7 +2409,7 @@
     "devTools": {
       "codeAI": "Claude Code",
       "assistant": "Claude",
-      "uiGen": null
+      "uiGen": "Claude Design"
     }
   }
 ]

@@ -25,7 +25,7 @@ function splitTechs(value: string): string[] {
   for (const char of value) {
     if (char === '(') depth++;
     if (char === ')') depth--;
-    if ((char === ',' || char === '/') && depth === 0) {
+    if (char === ',' && depth === 0) {
       if (current.trim()) parts.push(current.trim());
       current = '';
     } else {

@@ -51,6 +51,18 @@ interface Source {
 }
 ```
 
+## データ規約
+
+`solopreneurs.json` を編集・追加する際は、以下の表記を統一してください。
+
+1. **区切り文字はカンマ（,）のみ**
+   - 複数の技術・ツールを列挙する場合は `/` ではなく `,` を使用
+   - 例: `Node.js / Express` → `Node.js, Express`
+2. **shadcn/ui の表記は `shadcnUi`**
+   - `shadcn/ui` や `shadcnUI` は `shadcnUi` に統一
+3. **Postgres の表記は `PostgreSQL`**
+   - `Postgres` 表記は使用しない
+
 ## データ更新時の注意
 
 1. **JSONの整合性**: 配列のカンマ、閉じ括弧に注意

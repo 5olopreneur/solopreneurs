@@ -11,6 +11,14 @@
 - [Tailwind CSS](https://tailwindcss.com/) 4.x
 - Cloudflare Pages
 
+## データ規約
+
+`solopreneurs.json` に技術スタックなどを記述する際は、以下を統一してください。
+
+- **区切り文字はカンマ（,）のみ**: 複数技術を列挙する際は `/` ではなく `,` を使用
+- **`shadcn/ui` は `shadcnUi` と表記**: `shadcnUI` なども `shadcnUi` に統一
+- **`Postgres` は `PostgreSQL` と表記**: 正式名称で統一
+
 ## 開発コマンド
 
 | Command           | Action                                      |

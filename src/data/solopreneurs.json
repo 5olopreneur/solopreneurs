@@ -2406,5 +2406,291 @@
       "assistant": "Claude",
       "uiGen": "Claude Design"
     }
+  },
+  {
+    "id": "dan-martell",
+    "name": "Dan Martell",
+    "emoji": "👨🏻",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "products": [
+      {
+        "name": "SaaS Academy (Precision)",
+        "url": "https://precision.co/saasacademy",
+        "description": "B2B SaaS創業者向けコーチングプログラム。現在はAIエージェントプラットフォームPrecisionに統合"
+      },
+      {
+        "name": "Martell Ventures",
+        "url": "https://ventures.danmartell.com",
+        "description": "AIネイティブSaaS企業を共同創業・スケールするベンチャースタジオ"
+      },
+      {
+        "name": "Buy Back Your Time",
+        "url": "https://www.penguinrandomhouse.ca/books/692744/buy-back-your-time-by-dan-martell/9780593422977",
+        "description": "Wall Street Journalベストセラー。時間を買い戻す運営フレームワークの書籍"
+      },
+      {
+        "name": "Clarity.fm",
+        "url": "https://clarity.fm",
+        "description": "起業家と専門家をつなぐアドバイスマーケットプレイス（2015年に売却）"
+      }
+    ],
+    "xHandle": "danmartell",
+    "xFollowers": 2810000,
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React, WordPress, Elementor",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://precision.co/saasacademy",
+            "title": "SaaS Academy is now Precision"
+          }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Node.js, PHP",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://precision.co/saasacademy",
+            "title": "SaaS Academy is now Precision"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "database": {
+        "value": "MySQL",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.danmartell.com",
+            "title": "Dan Martell Official Website"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "hosting": {
+        "value": "WP Engine, Cloudflare, Render",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.danmartell.com",
+            "title": "Dan Martell Official Website"
+          },
+          {
+            "type": "blog",
+            "url": "https://precision.co/saasacademy",
+            "title": "SaaS Academy is now Precision"
+          }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Elementor, Google Tag Manager, Stripe",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.danmartell.com",
+            "title": "Dan Martell Official Website"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "Claude, ChatGPT, Cursor, n8n, Make.com, Zapier",
+        "sources": [
+          {
+            "type": "podcast",
+            "url": "https://www.shortform.com/podcast/episode/growth-stacking-show-with-dan-martell-2025-04-29-episode-summary-9-ai-skills-you-must-have-to-become-rich-in-2025",
+            "title": "9 AI Skills You MUST Have to Become Rich in 2025 | The Martell Method"
+          }
+        ],
+        "certainty": "high"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "コーチング・教育",
+        "description": "SaaS創業者向け高額コーチングプログラムでスケールを支援"
+      },
+      {
+        "name": "戦略的Exit",
+        "description": "Spheric、Flowtown、Clarity.fmの3社を10年以内に売却"
+      },
+      {
+        "name": "オーディエンス先行",
+        "description": "YouTubeとSNSでオーディエンスを構築し、コーチングとベンチャーへ誘導"
+      },
+      {
+        "name": "書籍・コンテンツ",
+        "description": "『Buy Back Your Time』など書籍で権威とリードを獲得"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "YouTube",
+        "description": "SaaS成長・時間管理・AI活用の解説動画で281万登録者"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "起業家向けのアドバイスと成長記録を発信"
+      },
+      {
+        "name": "書籍",
+        "description": "『Buy Back Your Time』でベストセラー獲得とリード獲得"
+      },
+      {
+        "name": "コーチングセールス",
+        "description": "インバウンドデモ予約から高額コーチングへのコンバージョン"
+      }
+    ],
+    "devTools": {
+      "codeAI": "Cursor",
+      "assistant": "Claude, ChatGPT",
+      "uiGen": "Lovable"
+    }
+  },
+  {
+    "id": "justin-welsh",
+    "name": "Justin Welsh",
+    "emoji": "👨🏻‍🦲",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "LinkedIn OS",
+        "url": "https://www.justinwelsh.me/the-operating-system-grow-monetize-your-linkedin",
+        "description": "LinkedInでのオーディエンス構築と収益化を教えるデジタルコース"
+      },
+      {
+        "name": "Content OS",
+        "url": "https://www.justinwelsh.me/the-content-os",
+        "description": "高品質なコンテンツを継続的に生産するシステムを教えるデジタルコース"
+      },
+      {
+        "name": "Creator MBA",
+        "url": "https://creator-mba.com",
+        "description": "ワンパーソンインターネットビジネスの構築からスケールまでを網羅したフラッグシップコース"
+      },
+      {
+        "name": "The Saturday Solopreneur",
+        "url": "https://www.justinwelsh.me/newsletter",
+        "description": "週刊ニュースレター。ソロプレナー向けの実践的なアドバイスを配信"
+      }
+    ],
+    "xHandle": "thejustinwelsh",
+    "xFollowers": 600000,
+    "techStack": {
+      "frontend": {
+        "value": "Next.js, React",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://justinwelsh.me",
+            "title": "Justin Welsh Official Website"
+          }
+        ],
+        "certainty": "high"
+      },
+      "backend": {
+        "value": "Node.js",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://justinwelsh.me",
+            "title": "Justin Welsh Official Website"
+          }
+        ],
+        "certainty": "medium"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "Vercel, Kajabi",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://justinwelsh.me",
+            "title": "Justin Welsh Official Website"
+          },
+          {
+            "type": "blog",
+            "url": "https://www.justinwelsh.me/article/guide-tech-stack",
+            "title": "My Business Tech Stack | Justin Welsh"
+          }
+        ],
+        "certainty": "high"
+      },
+      "libraries": {
+        "value": "Kajabi, ConvertKit, Zapier, Calendly, Notion, Loom, Carrd",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.justinwelsh.me/article/guide-tech-stack",
+            "title": "My Business Tech Stack | Justin Welsh"
+          }
+        ],
+        "certainty": "high"
+      },
+      "ai": {
+        "value": "Taplio, Hypefury, Shield, Typeshare",
+        "sources": [
+          {
+            "type": "blog",
+            "url": "https://www.justinwelsh.me/article/guide-tech-stack",
+            "title": "My Business Tech Stack | Justin Welsh"
+          }
+        ],
+        "certainty": "medium"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "デジタルプロダクト",
+        "description": "LinkedIn OS、Content OS、Creator MBAなど低価格・高マージンのデジタルコース"
+      },
+      {
+        "name": "オーディエンス先行",
+        "description": "LinkedInとXでオーディエンスを構築し、ニュースレターとコースへ誘導"
+      },
+      {
+        "name": "高利益率・リーン運営",
+        "description": "従業員なし、週20時間のVAのみで90%以上の利益率を実現"
+      },
+      {
+        "name": "コンテンツマルチ化",
+        "description": "5-12-3ルールで1つのアイデアを複数プラットフォームに展開"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "LinkedIn",
+        "description": "毎日の投稿でLinkedInオーディエンスを構築"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "60万フォロワー。ソロプレナー向けのアドバイスを発信"
+      },
+      {
+        "name": "Newsletter",
+        "description": "The Saturday Solopreneurで週次の関係構築とスポンサー収入"
+      },
+      {
+        "name": "オーガニック成長",
+        "description": "広告費をかけず、ソーシャルコンテンツと口コミで成長"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
   }
 ]

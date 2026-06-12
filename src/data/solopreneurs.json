@@ -2005,5 +2005,395 @@
       "assistant": "Claude",
       "uiGen": "v0"
     }
+  },
+  {
+    "id": "nick-saraev",
+    "name": "Nick Saraev",
+    "emoji": "🧒🏻",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "products": [
+      {
+        "name": "Maker School",
+        "url": "https://www.skool.com/makerschool",
+        "description": "Make.com・n8nを使ったAIオートメーションエージェンシー構築のSkoolコミュニティ"
+      },
+      {
+        "name": "Make Money With Make.com",
+        "url": null,
+        "description": "月$25Kのオートメーションエージェンシーへの道筋を提供する有料コミュニティ"
+      },
+      {
+        "name": "AI Voice Pioneers",
+        "url": null,
+        "description": "AI音声・ボイスエージェントに特化したコミュニティ"
+      },
+      {
+        "name": "1SecondCopy",
+        "url": null,
+        "description": "GPT-3搭載の自動コンテンツライティング代理店（過去事業、$90K/月到達）"
+      }
+    ],
+    "xHandle": "nicksaraev",
+    "xFollowers": 440000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "Skool",
+        "sources": [],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "Make.com, n8n",
+        "sources": [],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "OpenAI API, Gemini",
+        "sources": [],
+        "certainty": "medium"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "教育・コンテンツ",
+        "description": "有料コミュニティとカリキュラムでAIオートメーションスキルを販売"
+      },
+      {
+        "name": "オーディエンス先行",
+        "description": "YouTubeとXでオーディエンスを構築してからコミュニティを販売"
+      },
+      {
+        "name": "サブスク課金",
+        "description": "Skoolベースの月額コミュニティで反復収益を獲得"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "YouTube",
+        "description": "Make.com・n8n・AIエージェントの実践チュートリアルで44万人フォロワー"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "44万フォロワー。ビジネス成長と自動化の学びを発信"
+      },
+      {
+        "name": "Build in Public",
+        "description": "コミュニティのMRRや自身のビジネスを公開"
+      },
+      {
+        "name": "コミュニティマーケ",
+        "description": "Skoolで2,000人以上の活発なコミュニティを運営"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "shane-hummus",
+    "name": "Shane Hummus",
+    "emoji": "👱🏻",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "College 101",
+        "url": null,
+        "description": "大学選び・学位・キャリアについてのコース"
+      },
+      {
+        "name": "The Content Growth Engine",
+        "url": "https://www.thecontentgrowthengine.com",
+        "description": "YouTubeチャンネル成長のためのコーチングプログラム"
+      }
+    ],
+    "xHandle": "ShaneHummus",
+    "xFollowers": 1560000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "Teachable, YouTube",
+        "sources": [],
+        "certainty": "medium"
+      },
+      "libraries": {
+        "value": "Teachable",
+        "sources": [],
+        "certainty": "low"
+      },
+      "ai": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "教育・コンテンツ",
+        "description": "学位・キャリア・個人投資の教育コンテンツを中心に展開"
+      },
+      {
+        "name": "アフィリエイト",
+        "description": "おすすめコースの紹介で収益化"
+      },
+      {
+        "name": "コース販売",
+        "description": "College 101などの有料コースを販売"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "YouTube",
+        "description": "キャリア・学位・副業・個人投資の解説動画で156万人フォロワー"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "156万フォロワー。教育・キャリア関連の投稿"
+      },
+      {
+        "name": "SEO",
+        "description": " evergreen な教育トピックで検索流入を獲得"
+      }
+    ],
+    "devTools": {
+      "codeAI": null,
+      "assistant": null,
+      "uiGen": null
+    }
+  },
+  {
+    "id": "ryan-doser",
+    "name": "Ryan Doser",
+    "emoji": "👨🏻‍🦳",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "products": [
+      {
+        "name": "Ryan Doser Consulting",
+        "url": "https://ryandoser.com",
+        "description": "AIマーケティングコンサルティングと1on1戦略セッション"
+      },
+      {
+        "name": "AI Marketing Essentials Guide",
+        "url": "https://ryandoser.com/ai-marketing-guide/",
+        "description": "無料のAIマーケティングガイドと自動化テンプレート"
+      },
+      {
+        "name": "AI Skills Stack",
+        "url": "https://skills.ryandoser.com",
+        "description": "Claude CodeスキルとAIワークフローテンプレート"
+      },
+      {
+        "name": "FounderBrands",
+        "url": null,
+        "description": "創業者向けパーソナルブランディングサービス（パートナーシップ）"
+      }
+    ],
+    "xHandle": "ryan_doser13",
+    "xFollowers": 40000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "Make.com",
+        "sources": [],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "Claude, Gemini, OpenAI API, ElevenLabs, HeyGen, Opus Clip",
+        "sources": [],
+        "certainty": "medium"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "コンサルティング",
+        "description": "$400/時間のAI戦略コンサルと$4,000/日のオンサイト実装"
+      },
+      {
+        "name": "教育・コンテンツ",
+        "description": "YouTubeと無料ガイドで権威を構築し、有料サービスに誘導"
+      },
+      {
+        "name": "コミュニティ",
+        "description": "650人以上のAIマーケティングコミュニティを運営"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "YouTube",
+        "description": "AIマーケティングツールレビューとチュートリアルで4万人フォロワー"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "4万フォロワー。AIとマーケティングの実践的な学びを発信"
+      },
+      {
+        "name": "SEO",
+        "description": "10年以上のSEO経験を活かしたコンテンツ戦略"
+      },
+      {
+        "name": "Newsletter",
+        "description": "AI Power Playなどのメルマガで継続的なエンゲージメント"
+      }
+    ],
+    "devTools": {
+      "codeAI": "Claude Code",
+      "assistant": "Claude",
+      "uiGen": null
+    }
+  },
+  {
+    "id": "jono-catliff",
+    "name": "Jono Catliff",
+    "emoji": "🧔",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "products": [
+      {
+        "name": "Automatable",
+        "url": "https://www.youtube.com/@jonocatliff",
+        "description": "n8n・Make.com・Claude Codeの実践チュートリアルYouTubeチャンネル"
+      },
+      {
+        "name": "Automatable.co",
+        "url": "https://automatable.co",
+        "description": "AIオートメーション代理店"
+      },
+      {
+        "name": "Automatable Skool Community",
+        "url": null,
+        "description": "6,000人以上のAIオートメーション学習コミュニティ"
+      },
+      {
+        "name": "Claude Code Course",
+        "url": null,
+        "description": "Claude Codeを使ったAIネイティブ開発コース"
+      }
+    ],
+    "xHandle": "jonocatliff",
+    "xFollowers": 140000,
+    "techStack": {
+      "frontend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "backend": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "database": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "hosting": {
+        "value": "不明",
+        "sources": [],
+        "certainty": "low"
+      },
+      "libraries": {
+        "value": "n8n, Make.com, GoHighLevel, Vapi",
+        "sources": [],
+        "certainty": "medium"
+      },
+      "ai": {
+        "value": "Claude Code, Gemini, ChatGPT",
+        "sources": [],
+        "certainty": "medium"
+      }
+    },
+    "businessStrategy": [
+      {
+        "name": "教育・コンテンツ",
+        "description": "YouTubeチュートリアルとコースでAIオートメーションを教授"
+      },
+      {
+        "name": "サービス事業",
+        "description": "Automatable.coでAIオートメーション代理店を運営"
+      },
+      {
+        "name": "オーディエンス先行",
+        "description": "YouTubeコンテンツから代理店とコミュニティへの流れを作る"
+      }
+    ],
+    "marketing": [
+      {
+        "name": "YouTube",
+        "description": "n8n・Make.com・Claude Codeの実践チュートリアルで14万人フォロワー"
+      },
+      {
+        "name": "X/Twitter",
+        "description": "14万フォロワー。AIオートメーションとClaude Codeの学びを発信"
+      },
+      {
+        "name": "コミュニティマーケ",
+        "description": "Skoolで6,000人以上の有料コミュニティを運営"
+      },
+      {
+        "name": "Build in Public",
+        "description": "自身のビジネス自動化と成長をオープンに共有"
+      }
+    ],
+    "devTools": {
+      "codeAI": "Claude Code",
+      "assistant": "Claude",
+      "uiGen": null
+    }
   }
 ]
